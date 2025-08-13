@@ -14,10 +14,13 @@ import org.testng.annotations.Test;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import com.aventstack.extentreports.*;
 
 public class Tests {
 
     private WebDriver driver;
+    ExtentReports extent;
+    ExtentTest test;
     
     @BeforeClass
     public void setUp() throws IOException {
@@ -30,27 +33,37 @@ public class Tests {
         options.addArguments("--disable-dev-shm-usage");
         Path tempDir = Files.createTempDirectory("chrome-user-data");
         options.addArguments("user-data-dir=" + tempDir.toAbsolutePath().toString());
+        extent = ExtentManager.getInstance();
+        test = extent.createTest("SetUp Test");
 
 
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();
+        test.info("ChromeDriver started successfully");
         
     }
 
     @AfterClass
     public void tearDown() {
-        driver.quit();
+        if (driver != null) {
+            driver.quit();
+            test.info("ChromeDriver closed");
+        }
+        extent.flush(); // Write the report to HTML
     }
 
 
     @Test(dataProvider = "zoetispetsV2Locals", dataProviderClass = TestData.class, enabled = true, priority = 1)
     public void PracticeDetail(String pageURL, String pageTitle) throws InterruptedException {
 
+        test = extent.createTest("navigating to " + pageURL);
+
         driver.get(pageURL);
         String title = driver.getTitle();
         System.out.println("title = " + title);
 
         Assert.assertEquals(title,pageTitle);
+        test.pass("page title is"+ pageTitle);
 
 
 
