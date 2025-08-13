@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-13T14:03:08 TRT" name="ZoetisPetsCheckSuite" finished-at="2025-08-13T14:03:17 TRT" duration-ms="8980">
+    <groups>
+    </groups>
+    <test started-at="2025-08-13T14:03:08 TRT" name="ZoetisPetsCheckTests" finished-at="2025-08-13T14:03:17 TRT" duration-ms="8980">
+      <class name="com.zoetispets.Tests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.zoetispets.Tests@145f66e3]" started-at="2025-08-13T14:03:08 TRT" name="setUp" finished-at="2025-08-13T14:03:12 TRT" duration-ms="4137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@145f66e3]" started-at="2025-08-13T14:03:12 TRT" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2025-08-13T14:03:13 TRT" duration-ms="1582" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.zoetispets.com/en-gb/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Zoetis Pets UK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PracticeDetail -->
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@145f66e3]" started-at="2025-08-13T14:03:13 TRT" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2025-08-13T14:03:14 TRT" duration-ms="361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.zoetispets.com/en-au/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Zoetis Pets AU]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PracticeDetail -->
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@145f66e3]" started-at="2025-08-13T14:03:14 TRT" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2025-08-13T14:03:14 TRT" duration-ms="274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.zoetispets.com/de-de/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Zoetis Pets DE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PracticeDetail -->
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@145f66e3]" started-at="2025-08-13T14:03:14 TRT" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2025-08-13T14:03:14 TRT" duration-ms="296" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.zoetispets.com/it-it/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Zoetis Pets IT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PracticeDetail -->
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@145f66e3]" started-at="2025-08-13T14:03:14 TRT" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2025-08-13T14:03:15 TRT" duration-ms="265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.zoetispets.com/es-es/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Zoetis Pets ES]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PracticeDetail -->
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@145f66e3]" started-at="2025-08-13T14:03:15 TRT" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2025-08-13T14:03:15 TRT" duration-ms="473" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.zoetispets.com/pl-pl/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Zoetis Pets PL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PracticeDetail -->
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@145f66e3]" started-at="2025-08-13T14:03:15 TRT" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2025-08-13T14:03:15 TRT" duration-ms="251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.zoetispets.com/en-ca/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Zoetis Pets CA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PracticeDetail -->
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@145f66e3]" started-at="2025-08-13T14:03:15 TRT" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2025-08-13T14:03:16 TRT" duration-ms="243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.zoetispets.com/fr-ca/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Zoetis Pets CA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PracticeDetail -->
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@145f66e3]" started-at="2025-08-13T14:03:16 TRT" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2025-08-13T14:03:16 TRT" duration-ms="469" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.zoetispets.com/fr-fr/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Zoetis Pets FR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PracticeDetail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.zoetispets.Tests@145f66e3]" started-at="2025-08-13T14:03:16 TRT" name="tearDown" finished-at="2025-08-13T14:03:17 TRT" duration-ms="584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zoetispets.Tests -->
+    </test> <!-- ZoetisPetsCheckTests -->
+  </suite> <!-- ZoetisPetsCheckSuite -->
+</testng-results>
