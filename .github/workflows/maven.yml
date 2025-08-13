@@ -31,3 +31,10 @@ jobs:
 
       - name: Build and run tests
         run: mvn clean test
+
+      # 4. Upload the generated HTML report to GitHub Pages
+      - name: Publish report to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v6
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./target/ExtentReports # or your report folder  
