@@ -14,7 +14,7 @@ public class Tests {
     private WebDriver driver;
     
     @BeforeClass
-    public void setup(){
+    public void setUp(){
 
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
@@ -29,7 +29,7 @@ public class Tests {
 
 
     @Test(dataProvider = "zoetispetsV2Locals", dataProviderClass = TestData.class, enabled = true, priority = 1)
-    public void PracticeDetail(String pageURL, String pageName) throws InterruptedException {
+    public void PracticeDetail(String pageURL) throws InterruptedException {
 
         driver.get(pageURL);
         String title = driver.getTitle();
