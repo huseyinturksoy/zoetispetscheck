@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -43,11 +44,15 @@ public class Tests {
 
 
     @Test(dataProvider = "zoetispetsV2Locals", dataProviderClass = TestData.class, enabled = true, priority = 1)
-    public void PracticeDetail(String pageURL) throws InterruptedException {
+    public void PracticeDetail(String pageURL, String pageTitle) throws InterruptedException {
 
         driver.get(pageURL);
         String title = driver.getTitle();
         System.out.println("title = " + title);
+
+        Assert.assertEquals(title,pageTitle);
+
+
 
 
     }
