@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 17.91 s <<< FAILURE! -- in TestSuite
-com.zoetispets.Tests.PracticeDetail[https://www.zoetispets.com/fr-fr/, Zoetis Pets FRa](9) -- Time elapsed: 0.277 s <<< FAILURE!
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 12.79 s <<< FAILURE! -- in TestSuite
+com.zoetispets.Tests.PracticeDetail[https://www.zoetispets.com/fr-fr/, Zoetis Pets FRa](9) -- Time elapsed: 0.297 s <<< FAILURE!
 java.lang.AssertionError: expected [Zoetis Pets FRa] but found [Zoetis Pets FR]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -10,7 +10,7 @@ java.lang.AssertionError: expected [Zoetis Pets FRa] but found [Zoetis Pets FR]
 	at org.testng.Assert.assertEquals(Assert.java:132)
 	at org.testng.Assert.assertEquals(Assert.java:656)
 	at org.testng.Assert.assertEquals(Assert.java:666)
-	at com.zoetispets.Tests.PracticeDetail(Tests.java:65)
+	at com.zoetispets.Tests.PracticeDetail(Tests.java:66)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
