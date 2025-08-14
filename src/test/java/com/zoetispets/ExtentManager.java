@@ -8,7 +8,7 @@ public class ExtentManager {
 
     public static ExtentReports getInstance() {
         if (extent == null) {
-            ExtentSparkReporter reporter = new ExtentSparkReporter("target/ExtentReports.html");
+            ExtentSparkReporter reporter = new ExtentSparkReporter("target/index.html");
             reporter.config().setReportName("ZoetisPetsCheck Test Report");
             extent = new ExtentReports();
             extent.attachReporter(reporter);
