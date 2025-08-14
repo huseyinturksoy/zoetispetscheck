@@ -17,7 +17,8 @@ public class TestData {
                 {"https://www.zoetispets.com/pl-pl/", "Zoetis Pets PL"},
                 {"https://www.zoetispets.com/en-ca/", "Zoetis Pets CA"},
                 {"https://www.zoetispets.com/fr-ca/", "Zoetis Pets CA"},
-                {"https://www.zoetispets.com/fr-fr/", "Zoetis Pets FR"}
+                {"https://www.zoetispets.com/fr-fr/", "Zoetis Pets FR"},
+                {"https://www.zoetispets.com/pt-br/produtos/librela/", "Librela® para cães | Zoetis Pets"}
 
 
         };
