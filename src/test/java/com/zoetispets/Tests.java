@@ -63,7 +63,7 @@ public class Tests {
         System.out.println("title = " + title);
 
         Assert.assertEquals(title,pageTitle);
-        test.pass("page title is"+ pageTitle);
+        test.pass("page title is "+ pageTitle);
 
 
 
