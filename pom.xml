@@ -64,7 +64,7 @@
                 <version>3.1.2</version>
                 <configuration>
                     <reportsDirectory>${project.build.directory}/report</reportsDirectory>
-                    <testFailureIgnore>true</testFailureIgnore> <!-- continue even if tests fail -->
+                    <testFailureIgnore>false</testFailureIgnore> <!-- continue even if tests fail -->
                 </configuration>
             </plugin>
 
