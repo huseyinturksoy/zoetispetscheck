@@ -62,8 +62,13 @@ public class Tests {
         String title = driver.getTitle();
         System.out.println("title = " + title);
 
-        Assert.assertEquals(title,pageTitle);
-        test.pass("page title is "+ pageTitle);
+        try {
+            Assert.assertEquals(title, pageTitle);
+            test.pass("✅ Test Passed — Expected and actual title match: " + title);
+        } catch (AssertionError e) {
+            test.fail("❌ Test Failed — Expected: " + pageTitle + " | Actual: " + title);
+            throw e; // rethrow so TestNG marks the test as failed
+        }
 
 
 
