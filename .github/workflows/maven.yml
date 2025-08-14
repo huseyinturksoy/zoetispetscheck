@@ -37,6 +37,7 @@ jobs:
 
       # 4. Upload the generated HTML report to GitHub Pages
       - name: Publish report to GitHub Pages
+        if: always()  # ✅ This ensures the step runs even if previous steps fail
         uses: peaceiris/actions-gh-pages@v3.9.3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
