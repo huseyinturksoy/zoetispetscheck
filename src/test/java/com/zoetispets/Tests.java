@@ -54,9 +54,9 @@ public class Tests {
 
 
     @Test(dataProvider = "zoetispetsV2Locals", dataProviderClass = TestData.class, enabled = true, priority = 1)
-    public void PracticeDetail(String pageURL, String pageTitle) throws InterruptedException {
+    public void PracticeDetail(String pageURL, String pageTitle, String pageInfo) throws InterruptedException {
 
-        test = extent.createTest("navigating to " + pageURL);
+        test = extent.createTest("navigating to " + pageInfo);
 
         driver.get(pageURL);
         String title = driver.getTitle();
