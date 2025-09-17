@@ -5,4 +5,10 @@
             <class name="com.zoetispets.Tests"/>
         </classes>
     </test>
+
+    <listeners>
+        <listener class-name="com.zoetispets.FailureLogger"/>
+    </listeners>
+
 </suite>
+
