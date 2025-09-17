@@ -1,3 +1,4 @@
 com/zoetispets/TestData.class
+com/zoetispets/FailureLogger.class
 com/zoetispets/ExtentManager.class
 com/zoetispets/Tests.class
