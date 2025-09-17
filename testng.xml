@@ -1,14 +1,16 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="ZoetisPetsCheckSuite">
+    <listeners>
+        <listener class-name="com.zoetispets.FailureLogger"/>
+    </listeners>
+
     <test name="ZoetisPetsCheckTests">
         <classes>
             <class name="com.zoetispets.Tests"/>
         </classes>
     </test>
 
-    <listeners>
-        <listener class-name="com.zoetispets.FailureLogger"/>
-    </listeners>
+
 
 </suite>
 

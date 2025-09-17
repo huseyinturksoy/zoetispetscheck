@@ -43,6 +43,18 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./target
 
+      - name: Collect failures
+        if: always()
+        id: failures
+        run: |
+            if [ -f target/failed-tests.txt ]; then
+              echo "report<<EOF" >> $GITHUB_OUTPUT
+              cat target/failed-tests.txt >> $GITHUB_OUTPUT
+              echo "EOF" >> $GITHUB_OUTPUT
+            else
+              echo "report=✅ All tests passed" >> $GITHUB_OUTPUT
+            fi    
+
       # 5. Send email if tests failed
       - name: Send email if tests failed
         if: failure() # Runs only if any previous step failed
