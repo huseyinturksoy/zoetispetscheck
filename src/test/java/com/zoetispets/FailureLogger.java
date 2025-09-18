@@ -23,8 +23,8 @@ public class FailureLogger implements ITestListener {
 
         try (FileWriter fw = new FileWriter("target/failed-tests.txt", true)) {
             fw.write("❌ <b>Test:</b> " + testName + "<br/>\n");
-            fw.write("&nbsp;&nbsp; <b>URL:</b> " + failedUrl + "<br/>\n");
-            fw.write("&nbsp;&nbsp; <b>Error:</b> " + errorMessage + "<br/><br/>\n");
+            fw.write("&nbsp;&nbsp; <b>URL:</b> " + failedUrl + "  <br/>\n");
+            fw.write("&nbsp;&nbsp; <b>Error:</b> " + errorMessage + " <br/><br/>\n");
         } catch (IOException e) {
             e.printStackTrace();
         }

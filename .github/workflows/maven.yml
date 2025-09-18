@@ -70,7 +70,7 @@ jobs:
           content_type: text/html
           body: |
             <h2>Some tests have failed</h2>
-            <p>${{ steps.failures.outputs.report }}</p>
+            <p>  ${{ steps.failures.outputs.report }}   </p>
             <p>📑 <a href="https://huseyinturksoy.github.io/zoetispetscheck/">View Full Report</a></p>
               
 
