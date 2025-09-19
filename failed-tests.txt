@@ -1,3 +1,0 @@
-❌ <b>Test:</b> PracticeDetail<br/>
-&nbsp;&nbsp; <b>URL:</b> https://www.zoetispets.com/en-gb/  <br/>
-&nbsp;&nbsp; <b>Error:</b> expected [Zoetis Pets UKk] but found [Zoetis Pets UK] <br/><br/>
