@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
-              <span class="suite-name border-passed">Surefire suite</span>
+              <span class="suite-name border-failed">Surefire suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">30 methods,   30 passed</span>
+                    <span class="method-stats">30 methods, 2 failed,   28 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/fr-fr/, Zoetis Pets FR, FR HOME PAGE)">PracticeDetail(https://www.zoetispets.com/fr-fr/, Zoetis Pets FR, FR HOME PAGE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/es-es/, Zoetis Pets ES, ES HOME PAGE)">PracticeDetail(https://www.zoetispets.com/es-es/, Zoetis Pets ES, ES HOME PAGE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,6 +120,11 @@
                       <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
                     </span>
                     <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/pt-br/produtos/librela/, Librela® para cães | Zoetis Pets, BR HOME PAGE)">PracticeDetail(https://www.zoetispets.com/pt-br/produtos/librela/, Librela® para cães | Zoetis Pets, BR HOME PAGE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/de-de/, Zoetis Pets DE, DE HOME PAGE)">PracticeDetail(https://www.zoetispets.com/de-de/, Zoetis Pets DE, DE HOME PAGE)</a> <!-- method navigator-link -->
@@ -113,57 +137,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/it-it/, Zoetis Pets IT, IT HOME PAGE)">PracticeDetail(https://www.zoetispets.com/it-it/, Zoetis Pets IT, IT HOME PAGE)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/en-ca/dog-healthcare/arthritis-quiz/, Dog Arthritis Assessment | Zoetis P...)">PracticeDetail(https://www.zoetispets.com/en-ca/dog-healthcare/arthritis-quiz/, Dog Arthritis Assessment | Zoetis P...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/fr-fr/, Zoetis Pets FR, FR HOME PAGE)">PracticeDetail(https://www.zoetispets.com/fr-fr/, Zoetis Pets FR, FR HOME PAGE)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/es-es/perro-salud/problemas-de-piel-evaluacion/, Evaluación de problemas ...)">PracticeDetail(https://www.zoetispets.com/es-es/perro-salud/problemas-de-piel-evaluacion/, Evaluación de problemas ...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/it-it/salute-cane/segni-di-problemi-cutanei-risultato/, Test del prurito ...)">PracticeDetail(https://www.zoetispets.com/it-it/salute-cane/segni-di-problemi-cutanei-risultato/, Test del prurito ...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/pl-pl/ochrona-zdrowia-psa/artretyzm-quiz/, Ankieta pod kątem osteoarthrit...)">PracticeDetail(https://www.zoetispets.com/pl-pl/ochrona-zdrowia-psa/artretyzm-quiz/, Ankieta pod kątem osteoarthrit...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/de-de/hund-gesundheit/arthrose-quiz/, Online-Test zu Arthrose beim Hund |...)">PracticeDetail(https://www.zoetispets.com/de-de/hund-gesundheit/arthrose-quiz/, Online-Test zu Arthrose beim Hund |...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/en-gb/dog-healthcare/skin-conditions-assessment/, Dog Skin Conditions Ass...)">PracticeDetail(https://www.zoetispets.com/en-gb/dog-healthcare/skin-conditions-assessment/, Dog Skin Conditions Ass...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/es-es/, Zoetis Pets ES, ES HOME PAGE)">PracticeDetail(https://www.zoetispets.com/es-es/, Zoetis Pets ES, ES HOME PAGE)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/pt-br/produtos/librela/, Librela® para cães | Zoetis Pets, BR HOME PAGE)">PracticeDetail(https://www.zoetispets.com/pt-br/produtos/librela/, Librela® para cães | Zoetis Pets, BR HOME PAGE)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/fr-ca/chien-soins/arthrose-quiz/, Questionnaire sur l’arthrose du chien |...)">PracticeDetail(https://www.zoetispets.com/fr-ca/chien-soins/arthrose-quiz/, Questionnaire sur l’arthrose du chien |...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/fr-ca/chien-soins/dermatologie-evaluation/, Évaluation de la peau du chie...)">PracticeDetail(https://www.zoetispets.com/fr-ca/chien-soins/dermatologie-evaluation/, Évaluation de la peau du chie...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -173,57 +147,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/en-ca/dog-healthcare/skin-conditions-assessment/, Dog Skin Conditions Ass...)">PracticeDetail(https://www.zoetispets.com/en-ca/dog-healthcare/skin-conditions-assessment/, Dog Skin Conditions Ass...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/pl-pl/ochrona-zdrowia-psa/artretyzm-quiz/, Ankieta pod kątem osteoarthrit...)">PracticeDetail(https://www.zoetispets.com/pl-pl/ochrona-zdrowia-psa/artretyzm-quiz/, Ankieta pod kątem osteoarthrit...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/fr-fr/sante-du-chien/dermatologie-evaluation/, Évaluation des problèmes d...)">PracticeDetail(https://www.zoetispets.com/fr-fr/sante-du-chien/dermatologie-evaluation/, Évaluation des problèmes d...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/fr-fr/sante-du-chien/arthrose-quiz/, Évaluation de l’arthrose chez le chi...)">PracticeDetail(https://www.zoetispets.com/fr-fr/sante-du-chien/arthrose-quiz/, Évaluation de l’arthrose chez le chi...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/en-gb/, Zoetis Pets UK, UK HOME PAGE)">PracticeDetail(https://www.zoetispets.com/en-gb/, Zoetis Pets UK, UK HOME PAGE)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/en-au/dog-healthcare/skin-conditions-assessment/, Dog Skin Conditions Ass...)">PracticeDetail(https://www.zoetispets.com/en-au/dog-healthcare/skin-conditions-assessment/, Dog Skin Conditions Ass...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/fr-ca/chien-soins/dermatologie-evaluation/, Évaluation de la peau du chie...)">PracticeDetail(https://www.zoetispets.com/fr-ca/chien-soins/dermatologie-evaluation/, Évaluation de la peau du chie...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/de-de/hund-gesundheit/juckreiz-test/, Hautprobleme beim Hund | Zoetis Pet...)">PracticeDetail(https://www.zoetispets.com/de-de/hund-gesundheit/juckreiz-test/, Hautprobleme beim Hund | Zoetis Pet...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/pl-pl/ochrona-zdrowia-psa/choroby-skory-u-psa-ocena/, Ankieta dotycząca s...)">PracticeDetail(https://www.zoetispets.com/pl-pl/ochrona-zdrowia-psa/choroby-skory-u-psa-ocena/, Ankieta dotycząca s...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/es-es/perro-salud/artrosis-quiz/, Evaluación de la artrosis en perros | Z...)">PracticeDetail(https://www.zoetispets.com/es-es/perro-salud/artrosis-quiz/, Evaluación de la artrosis en perros | Z...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/en-au/cat-healthcare/arthritis-quiz/, Cat Arthritis Assessment | Zoetis P...)">PracticeDetail(https://www.zoetispets.com/en-au/cat-healthcare/arthritis-quiz/, Cat Arthritis Assessment | Zoetis P...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/pl-pl/, Zoetis Pets PL, PL HOME PAGE)">PracticeDetail(https://www.zoetispets.com/pl-pl/, Zoetis Pets PL, PL HOME PAGE)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/fr-ca/chien-soins/arthrose-quiz/, Questionnaire sur l’arthrose du chien |...)">PracticeDetail(https://www.zoetispets.com/fr-ca/chien-soins/arthrose-quiz/, Questionnaire sur l’arthrose du chien |...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -233,12 +162,22 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/fr-ca/, Zoetis Pets CA, CA-FR HOME PAGE)">PracticeDetail(https://www.zoetispets.com/fr-ca/, Zoetis Pets CA, CA-FR HOME PAGE)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/it-it/, Zoetis Pets IT, IT HOME PAGE)">PracticeDetail(https://www.zoetispets.com/it-it/, Zoetis Pets IT, IT HOME PAGE)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/en-au/, Zoetis Pets AU, AU HOME PAGE)">PracticeDetail(https://www.zoetispets.com/en-au/, Zoetis Pets AU, AU HOME PAGE)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/en-au/dog-healthcare/skin-conditions-assessment/, Dog Skin Conditions Ass...)">PracticeDetail(https://www.zoetispets.com/en-au/dog-healthcare/skin-conditions-assessment/, Dog Skin Conditions Ass...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/en-gb/dog-healthcare/arthritis-quiz/, Dog Arthritis Assessment | Zoetis P...)">PracticeDetail(https://www.zoetispets.com/en-gb/dog-healthcare/arthritis-quiz/, Dog Arthritis Assessment | Zoetis P...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/de-de/hund-gesundheit/juckreiz-test/, Hautprobleme beim Hund | Zoetis Pet...)">PracticeDetail(https://www.zoetispets.com/de-de/hund-gesundheit/juckreiz-test/, Hautprobleme beim Hund | Zoetis Pet...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -248,7 +187,77 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/en-gb/dog-healthcare/arthritis-quiz/, Dog Arthritis Assessment | Zoetis P...)">PracticeDetail(https://www.zoetispets.com/en-gb/dog-healthcare/arthritis-quiz/, Dog Arthritis Assessment | Zoetis P...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/es-es/perro-salud/artrosis-quiz/, Evaluación de la artrosis en perros | Z...)">PracticeDetail(https://www.zoetispets.com/es-es/perro-salud/artrosis-quiz/, Evaluación de la artrosis en perros | Z...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/it-it/salute-cane/segni-di-problemi-cutanei-risultato/, Test del prurito ...)">PracticeDetail(https://www.zoetispets.com/it-it/salute-cane/segni-di-problemi-cutanei-risultato/, Test del prurito ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/en-ca/dog-healthcare/skin-conditions-assessment/, Dog Skin Conditions Ass...)">PracticeDetail(https://www.zoetispets.com/en-ca/dog-healthcare/skin-conditions-assessment/, Dog Skin Conditions Ass...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/en-ca/dog-healthcare/arthritis-quiz/, Dog Arthritis Assessment | Zoetis P...)">PracticeDetail(https://www.zoetispets.com/en-ca/dog-healthcare/arthritis-quiz/, Dog Arthritis Assessment | Zoetis P...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/en-gb/, Zoetis Pets UK, UK HOME PAGE)">PracticeDetail(https://www.zoetispets.com/en-gb/, Zoetis Pets UK, UK HOME PAGE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/fr-fr/sante-du-chien/arthrose-quiz/, Évaluation de l’arthrose chez le chi...)">PracticeDetail(https://www.zoetispets.com/fr-fr/sante-du-chien/arthrose-quiz/, Évaluation de l’arthrose chez le chi...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/fr-ca/, Zoetis Pets CA, CA-FR HOME PAGE)">PracticeDetail(https://www.zoetispets.com/fr-ca/, Zoetis Pets CA, CA-FR HOME PAGE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/de-de/hund-gesundheit/arthrose-quiz/, Online-Test zu Arthrose beim Hund |...)">PracticeDetail(https://www.zoetispets.com/de-de/hund-gesundheit/arthrose-quiz/, Online-Test zu Arthrose beim Hund |...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/fr-fr/sante-du-chien/dermatologie-evaluation/, Évaluation des problèmes d...)">PracticeDetail(https://www.zoetispets.com/fr-fr/sante-du-chien/dermatologie-evaluation/, Évaluation des problèmes d...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/pl-pl/ochrona-zdrowia-psa/choroby-skory-u-psa-ocena/, Ankieta dotycząca s...)">PracticeDetail(https://www.zoetispets.com/pl-pl/ochrona-zdrowia-psa/choroby-skory-u-psa-ocena/, Ankieta dotycząca s...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/en-au/cat-healthcare/arthritis-quiz/, Cat Arthritis Assessment | Zoetis P...)">PracticeDetail(https://www.zoetispets.com/en-au/cat-healthcare/arthritis-quiz/, Cat Arthritis Assessment | Zoetis P...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/en-gb/dog-healthcare/skin-conditions-assessment/, Dog Skin Conditions Ass...)">PracticeDetail(https://www.zoetispets.com/en-gb/dog-healthcare/skin-conditions-assessment/, Dog Skin Conditions Ass...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/es-es/perro-salud/problemas-de-piel-evaluacion/, Evaluación de problemas ...)">PracticeDetail(https://www.zoetispets.com/es-es/perro-salud/problemas-de-piel-evaluacion/, Evaluación de problemas ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/en-au/, Zoetis Pets AU, AU HOME PAGE)">PracticeDetail(https://www.zoetispets.com/en-au/, Zoetis Pets AU, AU HOME PAGE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.zoetispets.Tests" class="method navigator-link" hash-for-method="PracticeDetail(https://www.zoetispets.com/pl-pl/, Zoetis Pets PL, PL HOME PAGE)">PracticeDetail(https://www.zoetispets.com/pl-pl/, Zoetis Pets PL, PL HOME PAGE)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Surefire_suite -->
@@ -263,12 +272,54 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.zoetispets.Tests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PracticeDetail(https://www.zoetispets.com/fr-fr/, Zoetis Pets FR, FR HOME PAGE)">
+                  </a> <!-- PracticeDetail(https://www.zoetispets.com/fr-fr/, Zoetis Pets FR, FR HOME PAGE) -->
+                  <span class="method-name">PracticeDetail</span>
+                  <span class="parameters">(https://www.zoetispets.com/fr-fr/,Zoetis Pets FR,FR HOME PAGE)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Zoetis Pets FR] but found [Aidez votre animal à vivre une vie meilleure en identifiant les signes d’affections telles que les problèmes de peau et l’arthrite et en les traitant | Zoetis]
+	at com.zoetispets.Tests.PracticeDetail(Tests.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 38 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PracticeDetail(https://www.zoetispets.com/es-es/, Zoetis Pets ES, ES HOME PAGE)">
+                  </a> <!-- PracticeDetail(https://www.zoetispets.com/es-es/, Zoetis Pets ES, ES HOME PAGE) -->
+                  <span class="method-name">PracticeDetail</span>
+                  <span class="parameters">(https://www.zoetispets.com/es-es/,Zoetis Pets ES,ES HOME PAGE)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Zoetis Pets ES] but found [Ayuda a tu mascota a vivir lo mejor posible detectando y tratando señales de afecciones como problemas de piel y artrosis | Zoetis]
+	at com.zoetispets.Tests.PracticeDetail(Tests.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 38 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">com.zoetispets.Tests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PracticeDetail(https://www.zoetispets.com/pt-br/produtos/librela/, Librela® para cães | Zoetis Pets, BR HOME PAGE)">
+                  </a> <!-- PracticeDetail(https://www.zoetispets.com/pt-br/produtos/librela/, Librela® para cães | Zoetis Pets, BR HOME PAGE) -->
+                  <span class="method-name">PracticeDetail</span>
+                  <span class="parameters">(https://www.zoetispets.com/pt-br/produtos/librela/,Librela® para cães | Zoetis Pets,BR HOME PAGE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="PracticeDetail(https://www.zoetispets.com/de-de/, Zoetis Pets DE, DE HOME PAGE)">
@@ -287,90 +338,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="PracticeDetail(https://www.zoetispets.com/it-it/, Zoetis Pets IT, IT HOME PAGE)">
-                  </a> <!-- PracticeDetail(https://www.zoetispets.com/it-it/, Zoetis Pets IT, IT HOME PAGE) -->
+                  <a name="PracticeDetail(https://www.zoetispets.com/fr-ca/chien-soins/dermatologie-evaluation/, Évaluation de la peau du chie...)">
+                  </a> <!-- PracticeDetail(https://www.zoetispets.com/fr-ca/chien-soins/dermatologie-evaluation/, Évaluation de la peau du chie...) -->
                   <span class="method-name">PracticeDetail</span>
-                  <span class="parameters">(https://www.zoetispets.com/it-it/,Zoetis Pets IT,IT HOME PAGE)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="PracticeDetail(https://www.zoetispets.com/en-ca/dog-healthcare/arthritis-quiz/, Dog Arthritis Assessment | Zoetis P...)">
-                  </a> <!-- PracticeDetail(https://www.zoetispets.com/en-ca/dog-healthcare/arthritis-quiz/, Dog Arthritis Assessment | Zoetis P...) -->
-                  <span class="method-name">PracticeDetail</span>
-                  <span class="parameters">(https://www.zoetispets.com/en-ca/dog-healthcare/arthritis-quiz/,Dog Arthritis Assessment | Zoetis Pets,CA-EN DOG ARTHRTIS ASSESSMENT PAGE)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="PracticeDetail(https://www.zoetispets.com/fr-fr/, Zoetis Pets FR, FR HOME PAGE)">
-                  </a> <!-- PracticeDetail(https://www.zoetispets.com/fr-fr/, Zoetis Pets FR, FR HOME PAGE) -->
-                  <span class="method-name">PracticeDetail</span>
-                  <span class="parameters">(https://www.zoetispets.com/fr-fr/,Zoetis Pets FR,FR HOME PAGE)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="PracticeDetail(https://www.zoetispets.com/es-es/perro-salud/problemas-de-piel-evaluacion/, Evaluación de problemas ...)">
-                  </a> <!-- PracticeDetail(https://www.zoetispets.com/es-es/perro-salud/problemas-de-piel-evaluacion/, Evaluación de problemas ...) -->
-                  <span class="method-name">PracticeDetail</span>
-                  <span class="parameters">(https://www.zoetispets.com/es-es/perro-salud/problemas-de-piel-evaluacion/,Evaluación de problemas de la piel en perros | Zoetis Pets,ES SKIN ASSESSMENT PAGE)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="PracticeDetail(https://www.zoetispets.com/it-it/salute-cane/segni-di-problemi-cutanei-risultato/, Test del prurito ...)">
-                  </a> <!-- PracticeDetail(https://www.zoetispets.com/it-it/salute-cane/segni-di-problemi-cutanei-risultato/, Test del prurito ...) -->
-                  <span class="method-name">PracticeDetail</span>
-                  <span class="parameters">(https://www.zoetispets.com/it-it/salute-cane/segni-di-problemi-cutanei-risultato/,Test del prurito del cane | Zoetis Pets,IT SKIN ASSESSMENT PAGE)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="PracticeDetail(https://www.zoetispets.com/pl-pl/ochrona-zdrowia-psa/artretyzm-quiz/, Ankieta pod kątem osteoarthrit...)">
-                  </a> <!-- PracticeDetail(https://www.zoetispets.com/pl-pl/ochrona-zdrowia-psa/artretyzm-quiz/, Ankieta pod kątem osteoarthrit...) -->
-                  <span class="method-name">PracticeDetail</span>
-                  <span class="parameters">(https://www.zoetispets.com/pl-pl/ochrona-zdrowia-psa/artretyzm-quiz/,Ankieta pod kątem osteoarthritis u psa | Zoetis Pets,PL ARTHRITIS ASSESSMENT PAGE)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="PracticeDetail(https://www.zoetispets.com/de-de/hund-gesundheit/arthrose-quiz/, Online-Test zu Arthrose beim Hund |...)">
-                  </a> <!-- PracticeDetail(https://www.zoetispets.com/de-de/hund-gesundheit/arthrose-quiz/, Online-Test zu Arthrose beim Hund |...) -->
-                  <span class="method-name">PracticeDetail</span>
-                  <span class="parameters">(https://www.zoetispets.com/de-de/hund-gesundheit/arthrose-quiz/,Online-Test zu Arthrose beim Hund | Zoetis Pets,DE ARTHRITIS ASSESSMENT PAGE)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="PracticeDetail(https://www.zoetispets.com/en-gb/dog-healthcare/skin-conditions-assessment/, Dog Skin Conditions Ass...)">
-                  </a> <!-- PracticeDetail(https://www.zoetispets.com/en-gb/dog-healthcare/skin-conditions-assessment/, Dog Skin Conditions Ass...) -->
-                  <span class="method-name">PracticeDetail</span>
-                  <span class="parameters">(https://www.zoetispets.com/en-gb/dog-healthcare/skin-conditions-assessment/,Dog Skin Conditions Assessment | Zoetis Pets,UK SKIN ASSESSMENT PAGE)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="PracticeDetail(https://www.zoetispets.com/es-es/, Zoetis Pets ES, ES HOME PAGE)">
-                  </a> <!-- PracticeDetail(https://www.zoetispets.com/es-es/, Zoetis Pets ES, ES HOME PAGE) -->
-                  <span class="method-name">PracticeDetail</span>
-                  <span class="parameters">(https://www.zoetispets.com/es-es/,Zoetis Pets ES,ES HOME PAGE)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="PracticeDetail(https://www.zoetispets.com/pt-br/produtos/librela/, Librela® para cães | Zoetis Pets, BR HOME PAGE)">
-                  </a> <!-- PracticeDetail(https://www.zoetispets.com/pt-br/produtos/librela/, Librela® para cães | Zoetis Pets, BR HOME PAGE) -->
-                  <span class="method-name">PracticeDetail</span>
-                  <span class="parameters">(https://www.zoetispets.com/pt-br/produtos/librela/,Librela® para cães | Zoetis Pets,BR HOME PAGE)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="PracticeDetail(https://www.zoetispets.com/fr-ca/chien-soins/arthrose-quiz/, Questionnaire sur l’arthrose du chien |...)">
-                  </a> <!-- PracticeDetail(https://www.zoetispets.com/fr-ca/chien-soins/arthrose-quiz/, Questionnaire sur l’arthrose du chien |...) -->
-                  <span class="method-name">PracticeDetail</span>
-                  <span class="parameters">(https://www.zoetispets.com/fr-ca/chien-soins/arthrose-quiz/,Questionnaire sur l’arthrose du chien | Zoetis Pets,CA-FR ARTHRITIS ASSESSMENT PAGE)</span>
+                  <span class="parameters">(https://www.zoetispets.com/fr-ca/chien-soins/dermatologie-evaluation/,Évaluation de la peau du chien | Zoetis Pets,CA-FR SKIN ASSESSMENT PAGE)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -383,90 +354,18 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="PracticeDetail(https://www.zoetispets.com/en-ca/dog-healthcare/skin-conditions-assessment/, Dog Skin Conditions Ass...)">
-                  </a> <!-- PracticeDetail(https://www.zoetispets.com/en-ca/dog-healthcare/skin-conditions-assessment/, Dog Skin Conditions Ass...) -->
+                  <a name="PracticeDetail(https://www.zoetispets.com/pl-pl/ochrona-zdrowia-psa/artretyzm-quiz/, Ankieta pod kątem osteoarthrit...)">
+                  </a> <!-- PracticeDetail(https://www.zoetispets.com/pl-pl/ochrona-zdrowia-psa/artretyzm-quiz/, Ankieta pod kątem osteoarthrit...) -->
                   <span class="method-name">PracticeDetail</span>
-                  <span class="parameters">(https://www.zoetispets.com/en-ca/dog-healthcare/skin-conditions-assessment/,Dog Skin Conditions Assessment | Zoetis Pets,CA SKIN ASSESSMENT PAGE)</span>
+                  <span class="parameters">(https://www.zoetispets.com/pl-pl/ochrona-zdrowia-psa/artretyzm-quiz/,Ankieta pod kątem osteoarthritis u psa | Zoetis Pets,PL ARTHRITIS ASSESSMENT PAGE)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="PracticeDetail(https://www.zoetispets.com/fr-fr/sante-du-chien/dermatologie-evaluation/, Évaluation des problèmes d...)">
-                  </a> <!-- PracticeDetail(https://www.zoetispets.com/fr-fr/sante-du-chien/dermatologie-evaluation/, Évaluation des problèmes d...) -->
+                  <a name="PracticeDetail(https://www.zoetispets.com/fr-ca/chien-soins/arthrose-quiz/, Questionnaire sur l’arthrose du chien |...)">
+                  </a> <!-- PracticeDetail(https://www.zoetispets.com/fr-ca/chien-soins/arthrose-quiz/, Questionnaire sur l’arthrose du chien |...) -->
                   <span class="method-name">PracticeDetail</span>
-                  <span class="parameters">(https://www.zoetispets.com/fr-fr/sante-du-chien/dermatologie-evaluation/,Évaluation des problèmes de peau chez le chien | Zoetis Pets,FR SKIN ASSESSMENT PAGE)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="PracticeDetail(https://www.zoetispets.com/fr-fr/sante-du-chien/arthrose-quiz/, Évaluation de l’arthrose chez le chi...)">
-                  </a> <!-- PracticeDetail(https://www.zoetispets.com/fr-fr/sante-du-chien/arthrose-quiz/, Évaluation de l’arthrose chez le chi...) -->
-                  <span class="method-name">PracticeDetail</span>
-                  <span class="parameters">(https://www.zoetispets.com/fr-fr/sante-du-chien/arthrose-quiz/,Évaluation de l’arthrose chez le chien | Zoetis Pets,FR ARTHRITIS ASSESSMENT PAGE)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="PracticeDetail(https://www.zoetispets.com/en-gb/, Zoetis Pets UK, UK HOME PAGE)">
-                  </a> <!-- PracticeDetail(https://www.zoetispets.com/en-gb/, Zoetis Pets UK, UK HOME PAGE) -->
-                  <span class="method-name">PracticeDetail</span>
-                  <span class="parameters">(https://www.zoetispets.com/en-gb/,Zoetis Pets UK,UK HOME PAGE)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="PracticeDetail(https://www.zoetispets.com/en-au/dog-healthcare/skin-conditions-assessment/, Dog Skin Conditions Ass...)">
-                  </a> <!-- PracticeDetail(https://www.zoetispets.com/en-au/dog-healthcare/skin-conditions-assessment/, Dog Skin Conditions Ass...) -->
-                  <span class="method-name">PracticeDetail</span>
-                  <span class="parameters">(https://www.zoetispets.com/en-au/dog-healthcare/skin-conditions-assessment/,Dog Skin Conditions Assessment | Zoetis Pets,AU SKIN ASSESSMENT PAGE)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="PracticeDetail(https://www.zoetispets.com/fr-ca/chien-soins/dermatologie-evaluation/, Évaluation de la peau du chie...)">
-                  </a> <!-- PracticeDetail(https://www.zoetispets.com/fr-ca/chien-soins/dermatologie-evaluation/, Évaluation de la peau du chie...) -->
-                  <span class="method-name">PracticeDetail</span>
-                  <span class="parameters">(https://www.zoetispets.com/fr-ca/chien-soins/dermatologie-evaluation/,Évaluation de la peau du chien | Zoetis Pets,CA-FR SKIN ASSESSMENT PAGE)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="PracticeDetail(https://www.zoetispets.com/de-de/hund-gesundheit/juckreiz-test/, Hautprobleme beim Hund | Zoetis Pet...)">
-                  </a> <!-- PracticeDetail(https://www.zoetispets.com/de-de/hund-gesundheit/juckreiz-test/, Hautprobleme beim Hund | Zoetis Pet...) -->
-                  <span class="method-name">PracticeDetail</span>
-                  <span class="parameters">(https://www.zoetispets.com/de-de/hund-gesundheit/juckreiz-test/,Hautprobleme beim Hund | Zoetis Pets,DE SKIN ASSESSMENT PAGE)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="PracticeDetail(https://www.zoetispets.com/pl-pl/ochrona-zdrowia-psa/choroby-skory-u-psa-ocena/, Ankieta dotycząca s...)">
-                  </a> <!-- PracticeDetail(https://www.zoetispets.com/pl-pl/ochrona-zdrowia-psa/choroby-skory-u-psa-ocena/, Ankieta dotycząca s...) -->
-                  <span class="method-name">PracticeDetail</span>
-                  <span class="parameters">(https://www.zoetispets.com/pl-pl/ochrona-zdrowia-psa/choroby-skory-u-psa-ocena/,Ankieta dotycząca stanu skóry psa | Zoetis Pets,PL SKIN ASSESSMENT PAGE)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="PracticeDetail(https://www.zoetispets.com/es-es/perro-salud/artrosis-quiz/, Evaluación de la artrosis en perros | Z...)">
-                  </a> <!-- PracticeDetail(https://www.zoetispets.com/es-es/perro-salud/artrosis-quiz/, Evaluación de la artrosis en perros | Z...) -->
-                  <span class="method-name">PracticeDetail</span>
-                  <span class="parameters">(https://www.zoetispets.com/es-es/perro-salud/artrosis-quiz/,Evaluación de la artrosis en perros | Zoetis Pets,ES ARTHRITIS ASSESSMENT PAGE)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="PracticeDetail(https://www.zoetispets.com/en-au/cat-healthcare/arthritis-quiz/, Cat Arthritis Assessment | Zoetis P...)">
-                  </a> <!-- PracticeDetail(https://www.zoetispets.com/en-au/cat-healthcare/arthritis-quiz/, Cat Arthritis Assessment | Zoetis P...) -->
-                  <span class="method-name">PracticeDetail</span>
-                  <span class="parameters">(https://www.zoetispets.com/en-au/cat-healthcare/arthritis-quiz/,Cat Arthritis Assessment | Zoetis Pets,AU CAT ARTHRITIS ASSESSMENT PAGE)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="PracticeDetail(https://www.zoetispets.com/pl-pl/, Zoetis Pets PL, PL HOME PAGE)">
-                  </a> <!-- PracticeDetail(https://www.zoetispets.com/pl-pl/, Zoetis Pets PL, PL HOME PAGE) -->
-                  <span class="method-name">PracticeDetail</span>
-                  <span class="parameters">(https://www.zoetispets.com/pl-pl/,Zoetis Pets PL,PL HOME PAGE)</span>
+                  <span class="parameters">(https://www.zoetispets.com/fr-ca/chien-soins/arthrose-quiz/,Questionnaire sur l’arthrose du chien | Zoetis Pets,CA-FR ARTHRITIS ASSESSMENT PAGE)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -479,18 +378,34 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="PracticeDetail(https://www.zoetispets.com/fr-ca/, Zoetis Pets CA, CA-FR HOME PAGE)">
-                  </a> <!-- PracticeDetail(https://www.zoetispets.com/fr-ca/, Zoetis Pets CA, CA-FR HOME PAGE) -->
+                  <a name="PracticeDetail(https://www.zoetispets.com/it-it/, Zoetis Pets IT, IT HOME PAGE)">
+                  </a> <!-- PracticeDetail(https://www.zoetispets.com/it-it/, Zoetis Pets IT, IT HOME PAGE) -->
                   <span class="method-name">PracticeDetail</span>
-                  <span class="parameters">(https://www.zoetispets.com/fr-ca/,Zoetis Pets CA,CA-FR HOME PAGE)</span>
+                  <span class="parameters">(https://www.zoetispets.com/it-it/,Zoetis Pets IT,IT HOME PAGE)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="PracticeDetail(https://www.zoetispets.com/en-au/, Zoetis Pets AU, AU HOME PAGE)">
-                  </a> <!-- PracticeDetail(https://www.zoetispets.com/en-au/, Zoetis Pets AU, AU HOME PAGE) -->
+                  <a name="PracticeDetail(https://www.zoetispets.com/en-au/dog-healthcare/skin-conditions-assessment/, Dog Skin Conditions Ass...)">
+                  </a> <!-- PracticeDetail(https://www.zoetispets.com/en-au/dog-healthcare/skin-conditions-assessment/, Dog Skin Conditions Ass...) -->
                   <span class="method-name">PracticeDetail</span>
-                  <span class="parameters">(https://www.zoetispets.com/en-au/,Zoetis Pets AU,AU HOME PAGE)</span>
+                  <span class="parameters">(https://www.zoetispets.com/en-au/dog-healthcare/skin-conditions-assessment/,Dog Skin Conditions Assessment | Zoetis Pets,AU SKIN ASSESSMENT PAGE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PracticeDetail(https://www.zoetispets.com/en-gb/dog-healthcare/arthritis-quiz/, Dog Arthritis Assessment | Zoetis P...)">
+                  </a> <!-- PracticeDetail(https://www.zoetispets.com/en-gb/dog-healthcare/arthritis-quiz/, Dog Arthritis Assessment | Zoetis P...) -->
+                  <span class="method-name">PracticeDetail</span>
+                  <span class="parameters">(https://www.zoetispets.com/en-gb/dog-healthcare/arthritis-quiz/,Dog Arthritis Assessment | Zoetis Pets,UK DOG ARTHRTIS ASSESSMENT PAGE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PracticeDetail(https://www.zoetispets.com/de-de/hund-gesundheit/juckreiz-test/, Hautprobleme beim Hund | Zoetis Pet...)">
+                  </a> <!-- PracticeDetail(https://www.zoetispets.com/de-de/hund-gesundheit/juckreiz-test/, Hautprobleme beim Hund | Zoetis Pet...) -->
+                  <span class="method-name">PracticeDetail</span>
+                  <span class="parameters">(https://www.zoetispets.com/de-de/hund-gesundheit/juckreiz-test/,Hautprobleme beim Hund | Zoetis Pets,DE SKIN ASSESSMENT PAGE)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -503,10 +418,122 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="PracticeDetail(https://www.zoetispets.com/en-gb/dog-healthcare/arthritis-quiz/, Dog Arthritis Assessment | Zoetis P...)">
-                  </a> <!-- PracticeDetail(https://www.zoetispets.com/en-gb/dog-healthcare/arthritis-quiz/, Dog Arthritis Assessment | Zoetis P...) -->
+                  <a name="PracticeDetail(https://www.zoetispets.com/es-es/perro-salud/artrosis-quiz/, Evaluación de la artrosis en perros | Z...)">
+                  </a> <!-- PracticeDetail(https://www.zoetispets.com/es-es/perro-salud/artrosis-quiz/, Evaluación de la artrosis en perros | Z...) -->
                   <span class="method-name">PracticeDetail</span>
-                  <span class="parameters">(https://www.zoetispets.com/en-gb/dog-healthcare/arthritis-quiz/,Dog Arthritis Assessment | Zoetis Pets,UK DOG ARTHRTIS ASSESSMENT PAGE)</span>
+                  <span class="parameters">(https://www.zoetispets.com/es-es/perro-salud/artrosis-quiz/,Evaluación de la artrosis en perros | Zoetis Pets,ES ARTHRITIS ASSESSMENT PAGE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PracticeDetail(https://www.zoetispets.com/it-it/salute-cane/segni-di-problemi-cutanei-risultato/, Test del prurito ...)">
+                  </a> <!-- PracticeDetail(https://www.zoetispets.com/it-it/salute-cane/segni-di-problemi-cutanei-risultato/, Test del prurito ...) -->
+                  <span class="method-name">PracticeDetail</span>
+                  <span class="parameters">(https://www.zoetispets.com/it-it/salute-cane/segni-di-problemi-cutanei-risultato/,Test del prurito del cane | Zoetis Pets,IT SKIN ASSESSMENT PAGE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PracticeDetail(https://www.zoetispets.com/en-ca/dog-healthcare/skin-conditions-assessment/, Dog Skin Conditions Ass...)">
+                  </a> <!-- PracticeDetail(https://www.zoetispets.com/en-ca/dog-healthcare/skin-conditions-assessment/, Dog Skin Conditions Ass...) -->
+                  <span class="method-name">PracticeDetail</span>
+                  <span class="parameters">(https://www.zoetispets.com/en-ca/dog-healthcare/skin-conditions-assessment/,Dog Skin Conditions Assessment | Zoetis Pets,CA SKIN ASSESSMENT PAGE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PracticeDetail(https://www.zoetispets.com/en-ca/dog-healthcare/arthritis-quiz/, Dog Arthritis Assessment | Zoetis P...)">
+                  </a> <!-- PracticeDetail(https://www.zoetispets.com/en-ca/dog-healthcare/arthritis-quiz/, Dog Arthritis Assessment | Zoetis P...) -->
+                  <span class="method-name">PracticeDetail</span>
+                  <span class="parameters">(https://www.zoetispets.com/en-ca/dog-healthcare/arthritis-quiz/,Dog Arthritis Assessment | Zoetis Pets,CA-EN DOG ARTHRTIS ASSESSMENT PAGE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PracticeDetail(https://www.zoetispets.com/en-gb/, Zoetis Pets UK, UK HOME PAGE)">
+                  </a> <!-- PracticeDetail(https://www.zoetispets.com/en-gb/, Zoetis Pets UK, UK HOME PAGE) -->
+                  <span class="method-name">PracticeDetail</span>
+                  <span class="parameters">(https://www.zoetispets.com/en-gb/,Zoetis Pets UK,UK HOME PAGE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PracticeDetail(https://www.zoetispets.com/fr-fr/sante-du-chien/arthrose-quiz/, Évaluation de l’arthrose chez le chi...)">
+                  </a> <!-- PracticeDetail(https://www.zoetispets.com/fr-fr/sante-du-chien/arthrose-quiz/, Évaluation de l’arthrose chez le chi...) -->
+                  <span class="method-name">PracticeDetail</span>
+                  <span class="parameters">(https://www.zoetispets.com/fr-fr/sante-du-chien/arthrose-quiz/,Évaluation de l’arthrose chez le chien | Zoetis Pets,FR ARTHRITIS ASSESSMENT PAGE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PracticeDetail(https://www.zoetispets.com/fr-ca/, Zoetis Pets CA, CA-FR HOME PAGE)">
+                  </a> <!-- PracticeDetail(https://www.zoetispets.com/fr-ca/, Zoetis Pets CA, CA-FR HOME PAGE) -->
+                  <span class="method-name">PracticeDetail</span>
+                  <span class="parameters">(https://www.zoetispets.com/fr-ca/,Zoetis Pets CA,CA-FR HOME PAGE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PracticeDetail(https://www.zoetispets.com/de-de/hund-gesundheit/arthrose-quiz/, Online-Test zu Arthrose beim Hund |...)">
+                  </a> <!-- PracticeDetail(https://www.zoetispets.com/de-de/hund-gesundheit/arthrose-quiz/, Online-Test zu Arthrose beim Hund |...) -->
+                  <span class="method-name">PracticeDetail</span>
+                  <span class="parameters">(https://www.zoetispets.com/de-de/hund-gesundheit/arthrose-quiz/,Online-Test zu Arthrose beim Hund | Zoetis Pets,DE ARTHRITIS ASSESSMENT PAGE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PracticeDetail(https://www.zoetispets.com/fr-fr/sante-du-chien/dermatologie-evaluation/, Évaluation des problèmes d...)">
+                  </a> <!-- PracticeDetail(https://www.zoetispets.com/fr-fr/sante-du-chien/dermatologie-evaluation/, Évaluation des problèmes d...) -->
+                  <span class="method-name">PracticeDetail</span>
+                  <span class="parameters">(https://www.zoetispets.com/fr-fr/sante-du-chien/dermatologie-evaluation/,Évaluation des problèmes de peau chez le chien | Zoetis Pets,FR SKIN ASSESSMENT PAGE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PracticeDetail(https://www.zoetispets.com/pl-pl/ochrona-zdrowia-psa/choroby-skory-u-psa-ocena/, Ankieta dotycząca s...)">
+                  </a> <!-- PracticeDetail(https://www.zoetispets.com/pl-pl/ochrona-zdrowia-psa/choroby-skory-u-psa-ocena/, Ankieta dotycząca s...) -->
+                  <span class="method-name">PracticeDetail</span>
+                  <span class="parameters">(https://www.zoetispets.com/pl-pl/ochrona-zdrowia-psa/choroby-skory-u-psa-ocena/,Ankieta dotycząca stanu skóry psa | Zoetis Pets,PL SKIN ASSESSMENT PAGE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PracticeDetail(https://www.zoetispets.com/en-au/cat-healthcare/arthritis-quiz/, Cat Arthritis Assessment | Zoetis P...)">
+                  </a> <!-- PracticeDetail(https://www.zoetispets.com/en-au/cat-healthcare/arthritis-quiz/, Cat Arthritis Assessment | Zoetis P...) -->
+                  <span class="method-name">PracticeDetail</span>
+                  <span class="parameters">(https://www.zoetispets.com/en-au/cat-healthcare/arthritis-quiz/,Cat Arthritis Assessment | Zoetis Pets,AU CAT ARTHRITIS ASSESSMENT PAGE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PracticeDetail(https://www.zoetispets.com/en-gb/dog-healthcare/skin-conditions-assessment/, Dog Skin Conditions Ass...)">
+                  </a> <!-- PracticeDetail(https://www.zoetispets.com/en-gb/dog-healthcare/skin-conditions-assessment/, Dog Skin Conditions Ass...) -->
+                  <span class="method-name">PracticeDetail</span>
+                  <span class="parameters">(https://www.zoetispets.com/en-gb/dog-healthcare/skin-conditions-assessment/,Dog Skin Conditions Assessment | Zoetis Pets,UK SKIN ASSESSMENT PAGE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PracticeDetail(https://www.zoetispets.com/es-es/perro-salud/problemas-de-piel-evaluacion/, Evaluación de problemas ...)">
+                  </a> <!-- PracticeDetail(https://www.zoetispets.com/es-es/perro-salud/problemas-de-piel-evaluacion/, Evaluación de problemas ...) -->
+                  <span class="method-name">PracticeDetail</span>
+                  <span class="parameters">(https://www.zoetispets.com/es-es/perro-salud/problemas-de-piel-evaluacion/,Evaluación de problemas de la piel en perros | Zoetis Pets,ES SKIN ASSESSMENT PAGE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PracticeDetail(https://www.zoetispets.com/en-au/, Zoetis Pets AU, AU HOME PAGE)">
+                  </a> <!-- PracticeDetail(https://www.zoetispets.com/en-au/, Zoetis Pets AU, AU HOME PAGE) -->
+                  <span class="method-name">PracticeDetail</span>
+                  <span class="parameters">(https://www.zoetispets.com/en-au/,Zoetis Pets AU,AU HOME PAGE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PracticeDetail(https://www.zoetispets.com/pl-pl/, Zoetis Pets PL, PL HOME PAGE)">
+                  </a> <!-- PracticeDetail(https://www.zoetispets.com/pl-pl/, Zoetis Pets PL, PL HOME PAGE) -->
+                  <span class="method-name">PracticeDetail</span>
+                  <span class="parameters">(https://www.zoetispets.com/pl-pl/,Zoetis Pets PL,PL HOME PAGE)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -567,128 +594,128 @@ data.addRows(30);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'PracticeDetail')
 data.setCell(0, 2, 'com.zoetispets.Tests')
-data.setCell(0, 3, 3162);
+data.setCell(0, 3, 1704);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'PracticeDetail')
 data.setCell(1, 2, 'com.zoetispets.Tests')
-data.setCell(1, 3, 2856);
+data.setCell(1, 3, 1345);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'PracticeDetail')
 data.setCell(2, 2, 'com.zoetispets.Tests')
-data.setCell(2, 3, 1346);
+data.setCell(2, 3, 924);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'PracticeDetail')
 data.setCell(3, 2, 'com.zoetispets.Tests')
-data.setCell(3, 3, 796);
+data.setCell(3, 3, 902);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'PracticeDetail')
 data.setCell(4, 2, 'com.zoetispets.Tests')
-data.setCell(4, 3, 491);
+data.setCell(4, 3, 783);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'PracticeDetail')
 data.setCell(5, 2, 'com.zoetispets.Tests')
-data.setCell(5, 3, 477);
+data.setCell(5, 3, 731);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'PracticeDetail')
 data.setCell(6, 2, 'com.zoetispets.Tests')
-data.setCell(6, 3, 443);
+data.setCell(6, 3, 688);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'PracticeDetail')
 data.setCell(7, 2, 'com.zoetispets.Tests')
-data.setCell(7, 3, 434);
+data.setCell(7, 3, 680);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'PracticeDetail')
 data.setCell(8, 2, 'com.zoetispets.Tests')
-data.setCell(8, 3, 431);
+data.setCell(8, 3, 562);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'PracticeDetail')
 data.setCell(9, 2, 'com.zoetispets.Tests')
-data.setCell(9, 3, 424);
+data.setCell(9, 3, 520);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'PracticeDetail')
 data.setCell(10, 2, 'com.zoetispets.Tests')
-data.setCell(10, 3, 420);
+data.setCell(10, 3, 460);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'PracticeDetail')
 data.setCell(11, 2, 'com.zoetispets.Tests')
-data.setCell(11, 3, 394);
+data.setCell(11, 3, 450);
 data.setCell(12, 0, 12)
 data.setCell(12, 1, 'PracticeDetail')
 data.setCell(12, 2, 'com.zoetispets.Tests')
-data.setCell(12, 3, 390);
+data.setCell(12, 3, 444);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'PracticeDetail')
 data.setCell(13, 2, 'com.zoetispets.Tests')
-data.setCell(13, 3, 384);
+data.setCell(13, 3, 437);
 data.setCell(14, 0, 14)
 data.setCell(14, 1, 'PracticeDetail')
 data.setCell(14, 2, 'com.zoetispets.Tests')
-data.setCell(14, 3, 375);
+data.setCell(14, 3, 431);
 data.setCell(15, 0, 15)
 data.setCell(15, 1, 'PracticeDetail')
 data.setCell(15, 2, 'com.zoetispets.Tests')
-data.setCell(15, 3, 374);
+data.setCell(15, 3, 402);
 data.setCell(16, 0, 16)
 data.setCell(16, 1, 'PracticeDetail')
 data.setCell(16, 2, 'com.zoetispets.Tests')
-data.setCell(16, 3, 373);
+data.setCell(16, 3, 400);
 data.setCell(17, 0, 17)
 data.setCell(17, 1, 'PracticeDetail')
 data.setCell(17, 2, 'com.zoetispets.Tests')
-data.setCell(17, 3, 371);
+data.setCell(17, 3, 390);
 data.setCell(18, 0, 18)
 data.setCell(18, 1, 'PracticeDetail')
 data.setCell(18, 2, 'com.zoetispets.Tests')
-data.setCell(18, 3, 366);
+data.setCell(18, 3, 382);
 data.setCell(19, 0, 19)
 data.setCell(19, 1, 'PracticeDetail')
 data.setCell(19, 2, 'com.zoetispets.Tests')
-data.setCell(19, 3, 362);
+data.setCell(19, 3, 358);
 data.setCell(20, 0, 20)
 data.setCell(20, 1, 'PracticeDetail')
 data.setCell(20, 2, 'com.zoetispets.Tests')
-data.setCell(20, 3, 359);
+data.setCell(20, 3, 355);
 data.setCell(21, 0, 21)
 data.setCell(21, 1, 'PracticeDetail')
 data.setCell(21, 2, 'com.zoetispets.Tests')
-data.setCell(21, 3, 329);
+data.setCell(21, 3, 346);
 data.setCell(22, 0, 22)
 data.setCell(22, 1, 'PracticeDetail')
 data.setCell(22, 2, 'com.zoetispets.Tests')
-data.setCell(22, 3, 323);
+data.setCell(22, 3, 342);
 data.setCell(23, 0, 23)
 data.setCell(23, 1, 'PracticeDetail')
 data.setCell(23, 2, 'com.zoetispets.Tests')
-data.setCell(23, 3, 320);
+data.setCell(23, 3, 337);
 data.setCell(24, 0, 24)
 data.setCell(24, 1, 'PracticeDetail')
 data.setCell(24, 2, 'com.zoetispets.Tests')
-data.setCell(24, 3, 313);
+data.setCell(24, 3, 324);
 data.setCell(25, 0, 25)
 data.setCell(25, 1, 'PracticeDetail')
 data.setCell(25, 2, 'com.zoetispets.Tests')
-data.setCell(25, 3, 302);
+data.setCell(25, 3, 316);
 data.setCell(26, 0, 26)
 data.setCell(26, 1, 'PracticeDetail')
 data.setCell(26, 2, 'com.zoetispets.Tests')
-data.setCell(26, 3, 298);
+data.setCell(26, 3, 295);
 data.setCell(27, 0, 27)
 data.setCell(27, 1, 'PracticeDetail')
 data.setCell(27, 2, 'com.zoetispets.Tests')
-data.setCell(27, 3, 297);
+data.setCell(27, 3, 287);
 data.setCell(28, 0, 28)
 data.setCell(28, 1, 'PracticeDetail')
 data.setCell(28, 2, 'com.zoetispets.Tests')
-data.setCell(28, 3, 262);
+data.setCell(28, 3, 285);
 data.setCell(29, 0, 29)
 data.setCell(29, 1, 'PracticeDetail')
 data.setCell(29, 2, 'com.zoetispets.Tests')
-data.setCell(29, 3, 249);
+data.setCell(29, 3, 252);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 17 seconds</span>
+              <span class="suite-total-time">Total running time: 16 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -721,127 +748,131 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">PracticeDetail(https://www.zoetispets.com/en-gb/, Zoetis Pets UK, UK HOME PAGE)</span>
-                <span class="method-start">10267 ms</span>
+                <span class="method-start">10284 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">PracticeDetail(https://www.zoetispets.com/en-au/, Zoetis Pets AU, AU HOME PAGE)</span>
-                <span class="method-start">13126 ms</span>
+                <span class="method-start">11631 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">PracticeDetail(https://www.zoetispets.com/de-de/, Zoetis Pets DE, DE HOME PAGE)</span>
-                <span class="method-start">13498 ms</span>
+                <span class="method-start">12194 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">PracticeDetail(https://www.zoetispets.com/it-it/, Zoetis Pets IT, IT HOME PAGE)</span>
-                <span class="method-start">13795 ms</span>
+                <span class="method-start">12480 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">PracticeDetail(https://www.zoetispets.com/es-es/, Zoetis Pets ES, ES HOME PAGE)</span>
-                <span class="method-start">14109 ms</span>
+                <span class="method-start">12768 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">PracticeDetail(https://www.zoetispets.com/pl-pl/, Zoetis Pets PL, PL HOME PAGE)</span>
-                <span class="method-start">14430 ms</span>
+                <span class="method-start">14475 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">PracticeDetail(https://www.zoetispets.com/en-ca/, Zoetis Pets CA, CA-EN HOME PAGE)</span>
-                <span class="method-start">14729 ms</span>
+                <span class="method-start">14830 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">PracticeDetail(https://www.zoetispets.com/fr-ca/, Zoetis Pets CA, CA-FR HOME PAGE)</span>
-                <span class="method-start">14979 ms</span>
+                <span class="method-start">15083 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">PracticeDetail(https://www.zoetispets.com/fr-fr/, Zoetis Pets FR, FR HOME PAGE)</span>
-                <span class="method-start">15242 ms</span>
+                <span class="method-start">15379 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">PracticeDetail(https://www.zoetispets.com/pt-br/produtos/librela/, Librela® para cães | Zoetis Pets, BR HOME PAGE)</span>
-                <span class="method-start">15546 ms</span>
+                <span class="method-start">16069 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">PracticeDetail(https://www.zoetispets.com/en-gb/dog-healthcare/arthritis-quiz/, Dog Arthritis Assessment | Zoetis P...)</span>
-                <span class="method-start">16342 ms</span>
+                <span class="method-start">16994 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">PracticeDetail(https://www.zoetispets.com/en-au/dog-healthcare/arthritis-quiz/, Dog Arthritis Assessment | Zoetis P...)</span>
-                <span class="method-start">16701 ms</span>
+                <span class="method-start">17331 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">PracticeDetail(https://www.zoetispets.com/en-ca/dog-healthcare/arthritis-quiz/, Dog Arthritis Assessment | Zoetis P...)</span>
-                <span class="method-start">18047 ms</span>
+                <span class="method-start">17792 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">PracticeDetail(https://www.zoetispets.com/en-gb/cat-healthcare/arthritis-quiz/, Cat Arthritis Assessment | Zoetis P...)</span>
-                <span class="method-start">18376 ms</span>
+                <span class="method-start">18576 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">PracticeDetail(https://www.zoetispets.com/en-au/cat-healthcare/arthritis-quiz/, Cat Arthritis Assessment | Zoetis P...)</span>
-                <span class="method-start">18699 ms</span>
+                <span class="method-start">18893 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">PracticeDetail(https://www.zoetispets.com/en-gb/dog-healthcare/skin-conditions-assessment/, Dog Skin Conditions Ass...)</span>
-                <span class="method-start">19194 ms</span>
+                <span class="method-start">19238 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">PracticeDetail(https://www.zoetispets.com/en-au/dog-healthcare/skin-conditions-assessment/, Dog Skin Conditions Ass...)</span>
-                <span class="method-start">19638 ms</span>
+                <span class="method-start">19970 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">PracticeDetail(https://www.zoetispets.com/en-ca/dog-healthcare/skin-conditions-assessment/, Dog Skin Conditions Ass...)</span>
-                <span class="method-start">20116 ms</span>
+                <span class="method-start">20294 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">PracticeDetail(https://www.zoetispets.com/fr-ca/chien-soins/arthrose-quiz/, Questionnaire sur l’arthrose du chien |...)</span>
-                <span class="method-start">20537 ms</span>
+                <span class="method-start">20732 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">PracticeDetail(https://www.zoetispets.com/fr-fr/sante-du-chien/arthrose-quiz/, Évaluation de l’arthrose chez le chi...)</span>
-                <span class="method-start">20971 ms</span>
+                <span class="method-start">21133 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">PracticeDetail(https://www.zoetispets.com/fr-ca/chien-soins/dermatologie-evaluation/, Évaluation de la peau du chie...)</span>
-                <span class="method-start">21396 ms</span>
+                <span class="method-start">21813 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">PracticeDetail(https://www.zoetispets.com/fr-fr/sante-du-chien/dermatologie-evaluation/, Évaluation des problèmes d...)</span>
-                <span class="method-start">21830 ms</span>
+                <span class="method-start">22245 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">PracticeDetail(https://www.zoetispets.com/de-de/hund-gesundheit/arthrose-quiz/, Online-Test zu Arthrose beim Hund |...)</span>
-                <span class="method-start">22208 ms</span>
+                <span class="method-start">22689 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">PracticeDetail(https://www.zoetispets.com/de-de/hund-gesundheit/juckreiz-test/, Hautprobleme beim Hund | Zoetis Pet...)</span>
-                <span class="method-start">22583 ms</span>
+                <span class="method-start">23035 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">PracticeDetail(https://www.zoetispets.com/es-es/perro-salud/artrosis-quiz/, Evaluación de la artrosis en perros | Z...)</span>
-                <span class="method-start">22950 ms</span>
+                <span class="method-start">23418 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">PracticeDetail(https://www.zoetispets.com/es-es/perro-salud/problemas-de-piel-evaluacion/, Evaluación de problemas ...)</span>
-                <span class="method-start">23335 ms</span>
+                <span class="method-start">23831 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">PracticeDetail(https://www.zoetispets.com/it-it/salute-cane/dolore-articolare-quiz/, Test del dolore articolare nel...)</span>
-                <span class="method-start">23730 ms</span>
+                <span class="method-start">24353 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">PracticeDetail(https://www.zoetispets.com/it-it/salute-cane/segni-di-problemi-cutanei-risultato/, Test del prurito ...)</span>
-                <span class="method-start">24121 ms</span>
+                <span class="method-start">24743 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">PracticeDetail(https://www.zoetispets.com/pl-pl/ochrona-zdrowia-psa/artretyzm-quiz/, Ankieta pod kątem osteoarthrit...)</span>
-                <span class="method-start">24495 ms</span>
+                <span class="method-start">25102 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">PracticeDetail(https://www.zoetispets.com/pl-pl/ochrona-zdrowia-psa/choroby-skory-u-psa-ocena/, Ankieta dotycząca s...)</span>
-                <span class="method-start">24858 ms</span>
+                <span class="method-start">26006 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">28021 ms</span>
+                <span class="method-start">26462 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
