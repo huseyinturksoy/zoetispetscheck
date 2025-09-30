@@ -1,6 +1,0 @@
-❌ <b>Test:</b> PracticeDetail<br/>
-&nbsp;&nbsp; <b>URL:</b> https://www.zoetispets.com/es-es/  <br/>
-&nbsp;&nbsp; <b>Error:</b> expected [Zoetis Pets ES] but found [Ayuda a tu mascota a vivir lo mejor posible detectando y tratando señales de afecciones como problemas de piel y artrosis | Zoetis] <br/><br/>
-❌ <b>Test:</b> PracticeDetail<br/>
-&nbsp;&nbsp; <b>URL:</b> https://www.zoetispets.com/fr-fr/  <br/>
-&nbsp;&nbsp; <b>Error:</b> expected [Zoetis Pets FR] but found [Aidez votre animal à vivre une vie meilleure en identifiant les signes d’affections telles que les problèmes de peau et l’arthrite et en les traitant | Zoetis] <br/><br/>
