@@ -1,3 +1,0 @@
-❌ <b>Test:</b> PracticeDetail<br/>
-&nbsp;&nbsp; <b>URL:</b> https://www.zoetispets.com/fr-fr/sante-du-chien/arthrose-quiz/  <br/>
-&nbsp;&nbsp; <b>Error:</b> expected [Évaluation de l’arthrose chez le chien | Zoetis Pets] but found [Erreur 404 | Zoetis Pets] <br/><br/>
