@@ -1,9 +1,9 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 30, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 30.56 s <<< FAILURE! -- in TestSuite
-com.zoetispets.Tests.PracticeDetail[https://www.zoetispets.com/fr-fr/, Zoetis Pets FR, FR HOME PAGE](9) -- Time elapsed: 0.677 s <<< FAILURE!
-java.lang.AssertionError: expected [Zoetis Pets FR] but found [The resource cannot be found.]
+Tests run: 30, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 22.55 s <<< FAILURE! -- in TestSuite
+com.zoetispets.Tests.PracticeDetail[https://www.zoetispets.com/fr-fr/sante-du-chien/arthrose-quiz/, Évaluation de l’arthrose chez le chien | Zoetis Pets, FR ARTHRITIS ASSESSMENT PAGE](20) -- Time elapsed: 0.269 s <<< FAILURE!
+java.lang.AssertionError: expected [Évaluation de l’arthrose chez le chien | Zoetis Pets] but found [The resource cannot be found.]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
@@ -11,8 +11,7 @@ java.lang.AssertionError: expected [Zoetis Pets FR] but found [The resource cann
 	at org.testng.Assert.assertEquals(Assert.java:656)
 	at org.testng.Assert.assertEquals(Assert.java:666)
 	at com.zoetispets.Tests.PracticeDetail(Tests.java:68)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
