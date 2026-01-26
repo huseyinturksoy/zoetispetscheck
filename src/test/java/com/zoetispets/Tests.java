@@ -61,6 +61,7 @@ public class Tests {
         test = extent.createTest("navigating to " + pageInfo);
 
         driver.get(pageURL);
+        Thread.sleep(2000);
         String title = driver.getTitle();
         System.out.println("title = " + title);
 
