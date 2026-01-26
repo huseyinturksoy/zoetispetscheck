@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="30" passed="29" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-26T06:07:31 UTC" name="Surefire suite" finished-at="2026-01-26T06:07:53 UTC" duration-ms="22200">
+  <suite started-at="2026-01-26T08:35:04 UTC" name="Surefire suite" finished-at="2026-01-26T08:35:51 UTC" duration-ms="47450">
     <groups>
     </groups>
-    <test started-at="2026-01-26T06:07:31 UTC" name="Surefire test" finished-at="2026-01-26T06:07:53 UTC" duration-ms="22200">
+    <test started-at="2026-01-26T08:35:04 UTC" name="Surefire test" finished-at="2026-01-26T08:35:51 UTC" duration-ms="47450">
       <class name="com.zoetispets.Tests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T06:07:31 UTC" name="setUp" finished-at="2026-01-26T06:07:33 UTC" duration-ms="2582" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T08:35:04 UTC" name="setUp" finished-at="2026-01-26T08:35:33 UTC" duration-ms="28960" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T06:07:33 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T06:07:34 UTC" duration-ms="1029" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T08:35:33 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T08:35:34 UTC" duration-ms="1819" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -32,7 +32,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T06:07:34 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T06:07:35 UTC" duration-ms="389" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T08:35:34 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T08:35:35 UTC" duration-ms="619" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,7 +53,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T06:07:35 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T06:07:35 UTC" duration-ms="281" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T08:35:35 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T08:35:35 UTC" duration-ms="294" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -74,7 +74,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T06:07:35 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T06:07:35 UTC" duration-ms="246" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T08:35:35 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T08:35:36 UTC" duration-ms="252" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -95,7 +95,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T06:07:35 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T06:07:36 UTC" duration-ms="227" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T08:35:36 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T08:35:36 UTC" duration-ms="270" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -116,7 +116,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T06:07:36 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T06:07:36 UTC" duration-ms="259" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T08:35:36 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T08:35:36 UTC" duration-ms="307" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -137,7 +137,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T06:07:36 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T06:07:36 UTC" duration-ms="241" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T08:35:36 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T08:35:36 UTC" duration-ms="269" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -158,7 +158,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T06:07:36 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T06:07:36 UTC" duration-ms="238" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T08:35:36 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T08:35:37 UTC" duration-ms="267" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -179,11 +179,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T06:07:36 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T06:07:37 UTC" duration-ms="964" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T08:35:37 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T08:35:37 UTC" duration-ms="527" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://www.zoetispets.com/fr-fr/]]>
+                <![CDATA[https://www.zoetisetcompagnie.com/fr-fr/]]>
               </value>
             </param>
             <param index="1">
@@ -197,243 +197,12 @@
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T06:07:37 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T06:07:38 UTC" duration-ms="295" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.zoetispets.com/pt-br/produtos/librela/]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Librela® para cães | Zoetis Pets]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[BR HOME PAGE]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T06:07:38 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T06:07:41 UTC" duration-ms="3696" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.zoetispets.com/en-gb/dog-healthcare/arthritis-quiz/]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Dog Arthritis Assessment | Zoetis Pets]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[UK DOG ARTHRTIS ASSESSMENT PAGE]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T06:07:41 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T06:07:43 UTC" duration-ms="1381" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.zoetispets.com/en-au/dog-healthcare/arthritis-quiz/]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Dog Arthritis Assessment | Zoetis Pets]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[AU DOG ARTHRTIS ASSESSMENT PAGE]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T06:07:43 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T06:07:43 UTC" duration-ms="462" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.zoetispets.com/en-ca/dog-healthcare/arthritis-quiz/]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Dog Arthritis Assessment | Zoetis Pets]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CA-EN DOG ARTHRTIS ASSESSMENT PAGE]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T06:07:43 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T06:07:44 UTC" duration-ms="535" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.zoetispets.com/en-gb/cat-healthcare/arthritis-quiz/]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Cat Arthritis Assessment | Zoetis Pets]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[UK CAT ARTHRTIS ASSESSMENT PAGE]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T06:07:44 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T06:07:45 UTC" duration-ms="906" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.zoetispets.com/en-au/cat-healthcare/arthritis-quiz/]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Cat Arthritis Assessment | Zoetis Pets]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[AU CAT ARTHRITIS ASSESSMENT PAGE]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T06:07:45 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T06:07:45 UTC" duration-ms="575" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.zoetispets.com/en-gb/dog-healthcare/skin-conditions-assessment/]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Dog Skin Conditions Assessment | Zoetis Pets]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[UK SKIN ASSESSMENT PAGE]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T06:07:45 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T06:07:46 UTC" duration-ms="700" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.zoetispets.com/en-au/dog-healthcare/skin-conditions-assessment/]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Dog Skin Conditions Assessment | Zoetis Pets]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[AU SKIN ASSESSMENT PAGE]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T06:07:46 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T06:07:46 UTC" duration-ms="518" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.zoetispets.com/en-ca/dog-healthcare/skin-conditions-assessment/]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Dog Skin Conditions Assessment | Zoetis Pets]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CA SKIN ASSESSMENT PAGE]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T06:07:46 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T06:07:47 UTC" duration-ms="826" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.zoetispets.com/fr-ca/chien-soins/arthrose-quiz/]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Questionnaire sur l’arthrose du chien | Zoetis Pets]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CA-FR ARTHRITIS ASSESSMENT PAGE]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T06:07:47 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T06:07:47 UTC" duration-ms="262" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.zoetispets.com/fr-fr/sante-du-chien/arthrose-quiz/]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Évaluation de l’arthrose chez le chien | Zoetis Pets]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[FR ARTHRITIS ASSESSMENT PAGE]]>
-              </value>
-            </param>
-          </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [Évaluation de l’arthrose chez le chien | Zoetis Pets] but found [The resource cannot be found.]]]>
+              <![CDATA[expected [Zoetis Pets FR] but found [The resource cannot be found.]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Évaluation de l’arthrose chez le chien | Zoetis Pets] but found [The resource cannot be found.]
+              <![CDATA[java.lang.AssertionError: expected [Zoetis Pets FR] but found [The resource cannot be found.]
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1578)
 at org.testng.Assert.assertEqualsImpl(Assert.java:150)
@@ -441,7 +210,8 @@ at org.testng.Assert.assertEquals(Assert.java:132)
 at org.testng.Assert.assertEquals(Assert.java:656)
 at org.testng.Assert.assertEquals(Assert.java:666)
 at com.zoetispets.Tests.PracticeDetail(Tests.java:68)
-at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:569)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -479,7 +249,238 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T06:07:47 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T06:07:48 UTC" duration-ms="647" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T08:35:37 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T08:35:38 UTC" duration-ms="417" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.zoetispets.com/pt-br/produtos/librela/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Librela® para cães | Zoetis Pets]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[BR HOME PAGE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PracticeDetail -->
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T08:35:38 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T08:35:39 UTC" duration-ms="1020" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.zoetispets.com/en-gb/dog-healthcare/arthritis-quiz/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dog Arthritis Assessment | Zoetis Pets]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[UK DOG ARTHRTIS ASSESSMENT PAGE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PracticeDetail -->
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T08:35:39 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T08:35:39 UTC" duration-ms="411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.zoetispets.com/en-au/dog-healthcare/arthritis-quiz/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dog Arthritis Assessment | Zoetis Pets]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[AU DOG ARTHRTIS ASSESSMENT PAGE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PracticeDetail -->
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T08:35:39 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T08:35:41 UTC" duration-ms="1703" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.zoetispets.com/en-ca/dog-healthcare/arthritis-quiz/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dog Arthritis Assessment | Zoetis Pets]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CA-EN DOG ARTHRTIS ASSESSMENT PAGE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PracticeDetail -->
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T08:35:41 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T08:35:41 UTC" duration-ms="640" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.zoetispets.com/en-gb/cat-healthcare/arthritis-quiz/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cat Arthritis Assessment | Zoetis Pets]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[UK CAT ARTHRTIS ASSESSMENT PAGE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PracticeDetail -->
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T08:35:41 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T08:35:43 UTC" duration-ms="1231" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.zoetispets.com/en-au/cat-healthcare/arthritis-quiz/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cat Arthritis Assessment | Zoetis Pets]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[AU CAT ARTHRITIS ASSESSMENT PAGE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PracticeDetail -->
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T08:35:43 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T08:35:43 UTC" duration-ms="555" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.zoetispets.com/en-gb/dog-healthcare/skin-conditions-assessment/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dog Skin Conditions Assessment | Zoetis Pets]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[UK SKIN ASSESSMENT PAGE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PracticeDetail -->
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T08:35:43 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T08:35:44 UTC" duration-ms="468" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.zoetispets.com/en-au/dog-healthcare/skin-conditions-assessment/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dog Skin Conditions Assessment | Zoetis Pets]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[AU SKIN ASSESSMENT PAGE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PracticeDetail -->
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T08:35:44 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T08:35:44 UTC" duration-ms="462" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.zoetispets.com/en-ca/dog-healthcare/skin-conditions-assessment/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dog Skin Conditions Assessment | Zoetis Pets]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CA SKIN ASSESSMENT PAGE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PracticeDetail -->
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T08:35:44 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T08:35:45 UTC" duration-ms="944" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.zoetispets.com/fr-ca/chien-soins/arthrose-quiz/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Questionnaire sur l’arthrose du chien | Zoetis Pets]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CA-FR ARTHRITIS ASSESSMENT PAGE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PracticeDetail -->
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T08:35:45 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T08:35:46 UTC" duration-ms="742" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.zoetisetcompagnie.com/fr-fr/sante-du-chien/arthrose-quiz/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Évaluation de l’arthrose chez le chien | Zoetis Pets]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[FR ARTHRITIS ASSESSMENT PAGE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PracticeDetail -->
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T08:35:46 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T08:35:46 UTC" duration-ms="437" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -500,11 +501,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T06:07:48 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T06:07:49 UTC" duration-ms="756" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T08:35:46 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T08:35:47 UTC" duration-ms="497" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://www.zoetispets.com/fr-fr/sante-du-chien/dermatologie-evaluation/]]>
+                <![CDATA[https://www.zoetisetcompagnie.com/fr-fr/sante-du-chien/dermatologie-evaluation/]]>
               </value>
             </param>
             <param index="1">
@@ -521,7 +522,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T06:07:49 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T06:07:49 UTC" duration-ms="615" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T08:35:47 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T08:35:47 UTC" duration-ms="541" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -542,7 +543,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T06:07:49 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T06:07:50 UTC" duration-ms="335" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T08:35:47 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T08:35:48 UTC" duration-ms="327" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -563,7 +564,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T06:07:50 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T06:07:50 UTC" duration-ms="546" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T08:35:48 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T08:35:48 UTC" duration-ms="402" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -584,7 +585,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T06:07:50 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T06:07:51 UTC" duration-ms="453" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T08:35:48 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T08:35:49 UTC" duration-ms="564" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -605,7 +606,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T06:07:51 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T06:07:51 UTC" duration-ms="494" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T08:35:49 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T08:35:49 UTC" duration-ms="430" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -626,7 +627,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T06:07:51 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T06:07:52 UTC" duration-ms="414" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T08:35:49 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T08:35:49 UTC" duration-ms="395" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -647,7 +648,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T06:07:52 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T06:07:52 UTC" duration-ms="521" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T08:35:49 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T08:35:50 UTC" duration-ms="462" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -668,7 +669,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T06:07:52 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T06:07:53 UTC" duration-ms="327" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T08:35:50 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-01-26T08:35:50 UTC" duration-ms="540" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -689,7 +690,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T06:07:53 UTC" name="tearDown" finished-at="2026-01-26T06:07:53 UTC" duration-ms="410" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.zoetispets.Tests@ec756bd]" started-at="2026-01-26T08:35:50 UTC" name="tearDown" finished-at="2026-01-26T08:35:51 UTC" duration-ms="619" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
