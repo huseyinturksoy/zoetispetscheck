@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="82.742" tests="30" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="88.317" tests="30" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="webdriver.chrome.driver" value="/home/runner/.cache/selenium/chromedriver/linux64/144.0.7559.96/chromedriver"/>
@@ -13,7 +13,7 @@
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/temurin-17-jdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/runner/work/zoetispetscheck/zoetispetscheck/target/surefire/surefirebooter-20260126084832880_3.jar /home/runner/work/zoetispetscheck/zoetispetscheck/target/surefire 2026-01-26T08-48-32_736-jvmRun1 surefire-20260126084832880_1tmp surefire_0-20260126084832880_2tmp"/>
+    <property name="sun.java.command" value="/home/runner/work/zoetispetscheck/zoetispetscheck/target/surefire/surefirebooter-20260126085245615_3.jar /home/runner/work/zoetispetscheck/zoetispetscheck/target/surefire 2026-01-26T08-52-45_521-jvmRun1 surefire-20260126085245615_1tmp surefire_0-20260126085245615_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/runner/work/zoetispetscheck/zoetispetscheck/target/test-classes:/home/runner/work/zoetispetscheck/zoetispetscheck/target/classes:/home/runner/.m2/repository/org/seleniumhq/selenium/selenium-java/4.10.0/selenium-java-4.10.0.jar:/home/runner/.m2/repository/org/seleniumhq/selenium/selenium-api/4.10.0/selenium-api-4.10.0.jar:/home/runner/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.10.0/selenium-chrome-driver-4.10.0.jar:/home/runner/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/home/runner/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/home/runner/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/home/runner/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/home/runner/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/runner/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/runner/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/runner/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/home/runner/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/runner/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.10.0/selenium-chromium-driver-4.10.0.jar:/home/runner/.m2/repository/org/seleniumhq/selenium/selenium-json/4.10.0/selenium-json-4.10.0.jar:/home/runner/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.10.0/selenium-manager-4.10.0.jar:/home/runner/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v112/4.10.0/selenium-devtools-v112-4.10.0.jar:/home/runner/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v113/4.10.0/selenium-devtools-v113-4.10.0.jar:/home/runner/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v114/4.10.0/selenium-devtools-v114-4.10.0.jar:/home/runner/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.10.0/selenium-devtools-v85-4.10.0.jar:/home/runner/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.10.0/selenium-edge-driver-4.10.0.jar:/home/runner/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.10.0/selenium-firefox-driver-4.10.0.jar:/home/runner/.m2/repository/org/seleniumhq/selenium/selenium-http/4.10.0/selenium-http-4.10.0.jar:/home/runner/.m2/repository/dev/failsafe/failsafe/3.3.1/failsafe-3.3.1.jar:/home/runner/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.10.0/selenium-ie-driver-4.10.0.jar:/home/runner/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.10.0/selenium-remote-driver-4.10.0.jar:/home/runner/.m2/repository/io/netty/netty-buffer/4.1.92.Final/netty-buffer-4.1.92.Final.jar:/home/runner/.m2/repository/io/netty/netty-codec-http/4.1.92.Final/netty-codec-http-4.1.92.Final.jar:/home/runner/.m2/repository/io/netty/netty-codec/4.1.92.Final/netty-codec-4.1.92.Final.jar:/home/runner/.m2/repository/io/netty/netty-handler/4.1.92.Final/netty-handler-4.1.92.Final.jar:/home/runner/.m2/repository/io/netty/netty-common/4.1.92.Final/netty-common-4.1.92.Final.jar:/home/runner/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.92.Final/netty-transport-classes-epoll-4.1.92.Final.jar:/home/runner/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.92.Final/netty-transport-classes-kqueue-4.1.92.Final.jar:/home/runner/.m2/repository/io/netty/netty-transport-native-epoll/4.1.92.Final/netty-transport-native-epoll-4.1.92.Final.jar:/home/runner/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.92.Final/netty-transport-native-kqueue-4.1.92.Final.jar:/home/runner/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.92.Final/netty-transport-native-unix-common-4.1.92.Final.jar:/home/runner/.m2/repository/io/netty/netty-transport/4.1.92.Final/netty-transport-4.1.92.Final.jar:/home/runner/.m2/repository/io/netty/netty-resolver/4.1.92.Final/netty-resolver-4.1.92.Final.jar:/home/runner/.m2/repository/io/opentelemetry/opentelemetry-api/1.26.0/opentelemetry-api-1.26.0.jar:/home/runner/.m2/repository/io/opentelemetry/opentelemetry-context/1.26.0/opentelemetry-context-1.26.0.jar:/home/runner/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.26.0/opentelemetry-exporter-logging-1.26.0.jar:/home/runner/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.26.0/opentelemetry-sdk-metrics-1.26.0.jar:/home/runner/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.26.0-alpha/opentelemetry-extension-incubator-1.26.0-alpha.jar:/home/runner/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.26.0-alpha/opentelemetry-sdk-logs-1.26.0-alpha.jar:/home/runner/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.26.0-alpha/opentelemetry-api-logs-1.26.0-alpha.jar:/home/runner/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.26.0-alpha/opentelemetry-api-events-1.26.0-alpha.jar:/home/runner/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.26.0/opentelemetry-sdk-common-1.26.0.jar:/home/runner/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.26.0/opentelemetry-sdk-extension-autoconfigure-spi-1.26.0.jar:/home/runner/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.26.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.26.0-alpha.jar:/home/runner/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.26.0/opentelemetry-sdk-trace-1.26.0.jar:/home/runner/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.26.0/opentelemetry-sdk-1.26.0.jar:/home/runner/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.26.0-alpha/opentelemetry-semconv-1.26.0-alpha.jar:/home/runner/.m2/repository/net/bytebuddy/byte-buddy/1.14.4/byte-buddy-1.14.4.jar:/home/runner/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/runner/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/home/runner/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/home/runner/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/home/runner/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/home/runner/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/home/runner/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/home/runner/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/home/runner/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/home/runner/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.10.0/selenium-safari-driver-4.10.0.jar:/home/runner/.m2/repository/org/seleniumhq/selenium/selenium-support/4.10.0/selenium-support-4.10.0.jar:/home/runner/.m2/repository/io/github/bonigarcia/webdrivermanager/6.1.0/webdrivermanager-6.1.0.jar:/home/runner/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar:/home/runner/.m2/repository/com/google/code/gson/gson/2.13.0/gson-2.13.0.jar:/home/runner/.m2/repository/com/google/errorprone/error_prone_annotations/2.37.0/error_prone_annotations-2.37.0.jar:/home/runner/.m2/repository/com/github/docker-java/docker-java/3.5.0/docker-java-3.5.0.jar:/home/runner/.m2/repository/com/github/docker-java/docker-java-core/3.5.0/docker-java-core-3.5.0.jar:/home/runner/.m2/repository/com/github/docker-java/docker-java-api/3.5.0/docker-java-api-3.5.0.jar:/home/runner/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.3/jackson-annotations-2.18.3.jar:/home/runner/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.3/jackson-databind-2.18.3.jar:/home/runner/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.3/jackson-core-2.18.3.jar:/home/runner/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/home/runner/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.5.0/docker-java-transport-httpclient5-3.5.0.jar:/home/runner/.m2/repository/com/github/docker-java/docker-java-transport/3.5.0/docker-java-transport-3.5.0.jar:/home/runner/.m2/repository/net/java/dev/jna/jna/5.17.0/jna-5.17.0.jar:/home/runner/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/home/runner/.m2/repository/org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.jar:/home/runner/.m2/repository/org/apache/commons/commons-compress/1.27.1/commons-compress-1.27.1.jar:/home/runner/.m2/repository/commons-codec/commons-codec/1.17.1/commons-codec-1.17.1.jar:/home/runner/.m2/repository/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar:/home/runner/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.4.3/httpclient5-5.4.3.jar:/home/runner/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.3.4/httpcore5-5.3.4.jar:/home/runner/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.3.4/httpcore5-h2-5.3.4.jar:/home/runner/.m2/repository/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar:/home/runner/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/home/runner/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/home/runner/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/home/runner/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/home/runner/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/home/runner/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/home/runner/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/home/runner/.m2/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -28,7 +28,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/home/runner/work/zoetispetscheck/zoetispetscheck/target/surefire/surefirebooter-20260126084832880_3.jar"/>
+    <property name="surefire.real.class.path" value="/home/runner/work/zoetispetscheck/zoetispetscheck/target/surefire/surefirebooter-20260126085245615_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.17+10"/>
     <property name="user.name" value="runner"/>
@@ -54,133 +54,174 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="PracticeDetail[https://www.zoetispets.com/en-gb/, Zoetis Pets UK, UK HOME PAGE](1)" classname="com.zoetispets.Tests" time="3.088">
+  <testcase name="PracticeDetail[https://www.zoetispets.com/en-gb/, Zoetis Pets UK, UK HOME PAGE](1)" classname="com.zoetispets.Tests" time="3.2">
     <system-out><![CDATA[title = Zoetis Pets UK
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-Jan 26, 2026 8:48:35 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+Jan 26, 2026 8:52:48 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
 INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-Jan 26, 2026 8:48:36 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jan 26, 2026 8:52:53 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 144
-Jan 26, 2026 8:48:36 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+Jan 26, 2026 8:52:53 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.10.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="PracticeDetail[https://www.zoetispets.com/en-au/, Zoetis Pets AU, AU HOME PAGE](2)" classname="com.zoetispets.Tests" time="3.515">
+  <testcase name="PracticeDetail[https://www.zoetispets.com/en-au/, Zoetis Pets AU, AU HOME PAGE](2)" classname="com.zoetispets.Tests" time="3.474">
     <system-out><![CDATA[title = Zoetis Pets AU
 ]]></system-out>
   </testcase>
-  <testcase name="PracticeDetail[https://www.zoetispets.com/de-de/, Zoetis Pets DE, DE HOME PAGE](3)" classname="com.zoetispets.Tests" time="2.424">
+  <testcase name="PracticeDetail[https://www.zoetispets.com/de-de/, Zoetis Pets DE, DE HOME PAGE](3)" classname="com.zoetispets.Tests" time="2.412">
     <system-out><![CDATA[title = Zoetis Pets DE
 ]]></system-out>
   </testcase>
-  <testcase name="PracticeDetail[https://www.zoetispets.com/it-it/, Zoetis Pets IT, IT HOME PAGE](4)" classname="com.zoetispets.Tests" time="2.325">
+  <testcase name="PracticeDetail[https://www.zoetispets.com/it-it/, Zoetis Pets IT, IT HOME PAGE](4)" classname="com.zoetispets.Tests" time="2.307">
     <system-out><![CDATA[title = Zoetis Pets IT
 ]]></system-out>
   </testcase>
-  <testcase name="PracticeDetail[https://www.zoetispets.com/es-es/, Zoetis Pets ES, ES HOME PAGE](5)" classname="com.zoetispets.Tests" time="2.324">
+  <testcase name="PracticeDetail[https://www.zoetispets.com/es-es/, Zoetis Pets ES, ES HOME PAGE](5)" classname="com.zoetispets.Tests" time="2.395">
     <system-out><![CDATA[title = Zoetis Pets ES
 ]]></system-out>
   </testcase>
-  <testcase name="PracticeDetail[https://www.zoetispets.com/pl-pl/, Zoetis Pets PL, PL HOME PAGE](6)" classname="com.zoetispets.Tests" time="2.314">
+  <testcase name="PracticeDetail[https://www.zoetispets.com/pl-pl/, Zoetis Pets PL, PL HOME PAGE](6)" classname="com.zoetispets.Tests" time="2.253">
     <system-out><![CDATA[title = Zoetis Pets PL
 ]]></system-out>
   </testcase>
-  <testcase name="PracticeDetail[https://www.zoetispets.com/en-ca/, Zoetis Pets CA, CA-EN HOME PAGE](7)" classname="com.zoetispets.Tests" time="2.323">
+  <testcase name="PracticeDetail[https://www.zoetispets.com/en-ca/, Zoetis Pets CA, CA-EN HOME PAGE](7)" classname="com.zoetispets.Tests" time="2.314">
     <system-out><![CDATA[title = Zoetis Pets CA
 ]]></system-out>
   </testcase>
-  <testcase name="PracticeDetail[https://www.zoetispets.com/fr-ca/, Zoetis Pets CA, CA-FR HOME PAGE](8)" classname="com.zoetispets.Tests" time="2.295">
+  <testcase name="PracticeDetail[https://www.zoetispets.com/fr-ca/, Zoetis Pets CA, CA-FR HOME PAGE](8)" classname="com.zoetispets.Tests" time="2.321">
     <system-out><![CDATA[title = Zoetis Pets CA
 ]]></system-out>
   </testcase>
-  <testcase name="PracticeDetail[https://www.zoetisetcompagnie.com/fr-fr/, Zoetis Pets FR, FR HOME PAGE](9)" classname="com.zoetispets.Tests" time="2.983">
+  <testcase name="PracticeDetail[https://www.zoetisetcompagnie.com/fr-fr/, Zoetis Pets FR, FR HOME PAGE](9)" classname="com.zoetispets.Tests" time="2.899">
     <system-out><![CDATA[title = Zoetis Pets FR
 ]]></system-out>
   </testcase>
-  <testcase name="PracticeDetail[https://www.zoetispets.com/pt-br/produtos/librela/, Librela® para cães | Zoetis Pets, BR HOME PAGE](10)" classname="com.zoetispets.Tests" time="2.414">
+  <testcase name="PracticeDetail[https://www.zoetispets.com/pt-br/produtos/librela/, Librela® para cães | Zoetis Pets, BR HOME PAGE](10)" classname="com.zoetispets.Tests" time="2.372">
     <system-out><![CDATA[title = Librela® para cães | Zoetis Pets
 ]]></system-out>
   </testcase>
-  <testcase name="PracticeDetail[https://www.zoetispets.com/en-gb/dog-healthcare/arthritis-quiz/, Dog Arthritis Assessment | Zoetis Pets, UK DOG ARTHRTIS ASSESSMENT PAGE](11)" classname="com.zoetispets.Tests" time="2.741">
+  <testcase name="PracticeDetail[https://www.zoetispets.com/en-gb/dog-healthcare/arthritis-quiz/, Dog Arthritis Assessment | Zoetis Pets, UK DOG ARTHRTIS ASSESSMENT PAGE](11)" classname="com.zoetispets.Tests" time="2.794">
     <system-out><![CDATA[title = Dog Arthritis Assessment | Zoetis Pets
 ]]></system-out>
   </testcase>
-  <testcase name="PracticeDetail[https://www.zoetispets.com/en-au/dog-healthcare/arthritis-quiz/, Dog Arthritis Assessment | Zoetis Pets, AU DOG ARTHRTIS ASSESSMENT PAGE](12)" classname="com.zoetispets.Tests" time="2.831">
+  <testcase name="PracticeDetail[https://www.zoetispets.com/en-au/dog-healthcare/arthritis-quiz/, Dog Arthritis Assessment | Zoetis Pets, AU DOG ARTHRTIS ASSESSMENT PAGE](12)" classname="com.zoetispets.Tests" time="2.853">
     <system-out><![CDATA[title = Dog Arthritis Assessment | Zoetis Pets
 ]]></system-out>
   </testcase>
-  <testcase name="PracticeDetail[https://www.zoetispets.com/en-ca/dog-healthcare/arthritis-quiz/, Dog Arthritis Assessment | Zoetis Pets, CA-EN DOG ARTHRTIS ASSESSMENT PAGE](13)" classname="com.zoetispets.Tests" time="2.764">
+  <testcase name="PracticeDetail[https://www.zoetispets.com/en-ca/dog-healthcare/arthritis-quiz/, Dog Arthritis Assessment | Zoetis Pets, CA-EN DOG ARTHRTIS ASSESSMENT PAGE](13)" classname="com.zoetispets.Tests" time="2.768">
     <system-out><![CDATA[title = Dog Arthritis Assessment | Zoetis Pets
 ]]></system-out>
   </testcase>
-  <testcase name="PracticeDetail[https://www.zoetispets.com/en-gb/cat-healthcare/arthritis-quiz/, Cat Arthritis Assessment | Zoetis Pets, UK CAT ARTHRTIS ASSESSMENT PAGE](14)" classname="com.zoetispets.Tests" time="2.574">
+  <testcase name="PracticeDetail[https://www.zoetispets.com/en-gb/cat-healthcare/arthritis-quiz/, Cat Arthritis Assessment | Zoetis Pets, UK CAT ARTHRTIS ASSESSMENT PAGE](14)" classname="com.zoetispets.Tests" time="4.855">
     <system-out><![CDATA[title = Cat Arthritis Assessment | Zoetis Pets
 ]]></system-out>
   </testcase>
-  <testcase name="PracticeDetail[https://www.zoetispets.com/en-au/cat-healthcare/arthritis-quiz/, Cat Arthritis Assessment | Zoetis Pets, AU CAT ARTHRITIS ASSESSMENT PAGE](15)" classname="com.zoetispets.Tests" time="2.736">
+  <testcase name="PracticeDetail[https://www.zoetispets.com/en-au/cat-healthcare/arthritis-quiz/, Cat Arthritis Assessment | Zoetis Pets, AU CAT ARTHRITIS ASSESSMENT PAGE](15)" classname="com.zoetispets.Tests" time="2.859">
     <system-out><![CDATA[title = Cat Arthritis Assessment | Zoetis Pets
 ]]></system-out>
   </testcase>
-  <testcase name="PracticeDetail[https://www.zoetispets.com/en-gb/dog-healthcare/skin-conditions-assessment/, Dog Skin Conditions Assessment | Zoetis Pets, UK SKIN ASSESSMENT PAGE](16)" classname="com.zoetispets.Tests" time="2.48">
+  <testcase name="PracticeDetail[https://www.zoetispets.com/en-gb/dog-healthcare/skin-conditions-assessment/, Dog Skin Conditions Assessment | Zoetis Pets, UK SKIN ASSESSMENT PAGE](16)" classname="com.zoetispets.Tests" time="2.646">
     <system-out><![CDATA[title = Dog Skin Conditions Assessment | Zoetis Pets
 ]]></system-out>
   </testcase>
-  <testcase name="PracticeDetail[https://www.zoetispets.com/en-au/dog-healthcare/skin-conditions-assessment/, Dog Skin Conditions Assessment | Zoetis Pets, AU SKIN ASSESSMENT PAGE](17)" classname="com.zoetispets.Tests" time="2.744">
+  <testcase name="PracticeDetail[https://www.zoetispets.com/en-au/dog-healthcare/skin-conditions-assessment/, Dog Skin Conditions Assessment | Zoetis Pets, AU SKIN ASSESSMENT PAGE](17)" classname="com.zoetispets.Tests" time="2.722">
     <system-out><![CDATA[title = Dog Skin Conditions Assessment | Zoetis Pets
 ]]></system-out>
   </testcase>
-  <testcase name="PracticeDetail[https://www.zoetispets.com/en-ca/dog-healthcare/skin-conditions-assessment/, Dog Skin Conditions Assessment | Zoetis Pets, CA SKIN ASSESSMENT PAGE](18)" classname="com.zoetispets.Tests" time="2.67">
+  <testcase name="PracticeDetail[https://www.zoetispets.com/en-ca/dog-healthcare/skin-conditions-assessment/, Dog Skin Conditions Assessment | Zoetis Pets, CA SKIN ASSESSMENT PAGE](18)" classname="com.zoetispets.Tests" time="2.691">
     <system-out><![CDATA[title = Dog Skin Conditions Assessment | Zoetis Pets
 ]]></system-out>
   </testcase>
-  <testcase name="PracticeDetail[https://www.zoetispets.com/fr-ca/chien-soins/arthrose-quiz/, Questionnaire sur l’arthrose du chien | Zoetis Pets, CA-FR ARTHRITIS ASSESSMENT PAGE](19)" classname="com.zoetispets.Tests" time="2.676">
+  <testcase name="PracticeDetail[https://www.zoetispets.com/fr-ca/chien-soins/arthrose-quiz/, Questionnaire sur l’arthrose du chien | Zoetis Pets, CA-FR ARTHRITIS ASSESSMENT PAGE](19)" classname="com.zoetispets.Tests" time="2.908">
     <system-out><![CDATA[title = Questionnaire sur l’arthrose du chien | Zoetis Pets
 ]]></system-out>
   </testcase>
-  <testcase name="PracticeDetail[https://www.zoetisetcompagnie.com/fr-fr/sante-du-chien/arthrose-quiz/, Évaluation de l’arthrose chez le chien | Zoetis Pets, FR ARTHRITIS ASSESSMENT PAGE](20)" classname="com.zoetispets.Tests" time="2.787">
+  <testcase name="PracticeDetail[https://www.zoetisetcompagnie.com/fr-fr/sante-du-chien/arthrose-quiz/, Évaluation de l’arthrose chez le chien | Zoetis Pets, FR ARTHRITIS ASSESSMENT PAGE](20)" classname="com.zoetispets.Tests" time="2.574">
     <system-out><![CDATA[title = Évaluation de l’arthrose chez le chien | Zoetis Pets
 ]]></system-out>
   </testcase>
-  <testcase name="PracticeDetail[https://www.zoetispets.com/fr-ca/chien-soins/dermatologie-evaluation/, Évaluation de la peau du chien | Zoetis Pets, CA-FR SKIN ASSESSMENT PAGE](21)" classname="com.zoetispets.Tests" time="2.866">
+  <testcase name="PracticeDetail[https://www.zoetispets.com/fr-ca/chien-soins/dermatologie-evaluation/, Évaluation de la peau du chien | Zoetis Pets, CA-FR SKIN ASSESSMENT PAGE](21)" classname="com.zoetispets.Tests" time="2.4">
     <system-out><![CDATA[title = Évaluation de la peau du chien | Zoetis Pets
 ]]></system-out>
   </testcase>
-  <testcase name="PracticeDetail[https://www.zoetisetcompagnie.com/fr-fr/sante-du-chien/dermatologie-evaluation/, Évaluation des problèmes de peau chez le chien | Zoetis Pets, FR SKIN ASSESSMENT PAGE](22)" classname="com.zoetispets.Tests" time="2.528">
-    <system-out><![CDATA[title = Évaluation des problèmes de peau chez le chien | Zoetis Pets
+  <testcase name="PracticeDetail[https://www.zoetisetcompagnie.com/fr-fr/sante-du-chien/dermatologie-evaluation/, Évaluation des problèmes de peau chez le chien | Zoetis Pets, FR SKIN ASSESSMENT PAGE](22)" classname="com.zoetispets.Tests" time="2.124">
+    <failure message="expected [Évaluation des problèmes de peau chez le chien | Zoetis Pets] but found [The resource cannot be found.]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Évaluation des problèmes de peau chez le chien | Zoetis Pets] but found [The resource cannot be found.]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at com.zoetispets.Tests.PracticeDetail(Tests.java:69)
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[title = The resource cannot be found.
 ]]></system-out>
   </testcase>
-  <testcase name="PracticeDetail[https://www.zoetispets.com/de-de/hund-gesundheit/arthrose-quiz/, Online-Test zu Arthrose beim Hund | Zoetis Pets, DE ARTHRITIS ASSESSMENT PAGE](23)" classname="com.zoetispets.Tests" time="2.355">
+  <testcase name="PracticeDetail[https://www.zoetispets.com/de-de/hund-gesundheit/arthrose-quiz/, Online-Test zu Arthrose beim Hund | Zoetis Pets, DE ARTHRITIS ASSESSMENT PAGE](23)" classname="com.zoetispets.Tests" time="2.589">
     <system-out><![CDATA[title = Online-Test zu Arthrose beim Hund | Zoetis Pets
 ]]></system-out>
   </testcase>
-  <testcase name="PracticeDetail[https://www.zoetispets.com/de-de/hund-gesundheit/juckreiz-test/, Hautprobleme beim Hund | Zoetis Pets, DE SKIN ASSESSMENT PAGE](24)" classname="com.zoetispets.Tests" time="2.501">
+  <testcase name="PracticeDetail[https://www.zoetispets.com/de-de/hund-gesundheit/juckreiz-test/, Hautprobleme beim Hund | Zoetis Pets, DE SKIN ASSESSMENT PAGE](24)" classname="com.zoetispets.Tests" time="2.482">
     <system-out><![CDATA[title = Hautprobleme beim Hund | Zoetis Pets
 ]]></system-out>
   </testcase>
-  <testcase name="PracticeDetail[https://www.zoetispets.com/es-es/perro-salud/artrosis-quiz/, Evaluación de la artrosis en perros | Zoetis Pets, ES ARTHRITIS ASSESSMENT PAGE](25)" classname="com.zoetispets.Tests" time="2.673">
+  <testcase name="PracticeDetail[https://www.zoetispets.com/es-es/perro-salud/artrosis-quiz/, Evaluación de la artrosis en perros | Zoetis Pets, ES ARTHRITIS ASSESSMENT PAGE](25)" classname="com.zoetispets.Tests" time="2.54">
     <system-out><![CDATA[title = Evaluación de la artrosis en perros | Zoetis Pets
 ]]></system-out>
   </testcase>
-  <testcase name="PracticeDetail[https://www.zoetispets.com/es-es/perro-salud/problemas-de-piel-evaluacion/, Evaluación de problemas de la piel en perros | Zoetis Pets, ES SKIN ASSESSMENT PAGE](26)" classname="com.zoetispets.Tests" time="2.465">
+  <testcase name="PracticeDetail[https://www.zoetispets.com/es-es/perro-salud/problemas-de-piel-evaluacion/, Evaluación de problemas de la piel en perros | Zoetis Pets, ES SKIN ASSESSMENT PAGE](26)" classname="com.zoetispets.Tests" time="2.502">
     <system-out><![CDATA[title = Evaluación de problemas de la piel en perros | Zoetis Pets
 ]]></system-out>
   </testcase>
-  <testcase name="PracticeDetail[https://www.zoetispets.com/it-it/salute-cane/dolore-articolare-quiz/, Test del dolore articolare nel cane | Zoetis Pets, IT ARTHRITIS ASSESSMENT PAGE](27)" classname="com.zoetispets.Tests" time="2.617">
+  <testcase name="PracticeDetail[https://www.zoetispets.com/it-it/salute-cane/dolore-articolare-quiz/, Test del dolore articolare nel cane | Zoetis Pets, IT ARTHRITIS ASSESSMENT PAGE](27)" classname="com.zoetispets.Tests" time="2.506">
     <system-out><![CDATA[title = Test del dolore articolare nel cane | Zoetis Pets
 ]]></system-out>
   </testcase>
-  <testcase name="PracticeDetail[https://www.zoetispets.com/it-it/salute-cane/segni-di-problemi-cutanei-risultato/, Test del prurito del cane | Zoetis Pets, IT SKIN ASSESSMENT PAGE](28)" classname="com.zoetispets.Tests" time="2.46">
+  <testcase name="PracticeDetail[https://www.zoetispets.com/it-it/salute-cane/segni-di-problemi-cutanei-risultato/, Test del prurito del cane | Zoetis Pets, IT SKIN ASSESSMENT PAGE](28)" classname="com.zoetispets.Tests" time="2.495">
     <system-out><![CDATA[title = Test del prurito del cane | Zoetis Pets
 ]]></system-out>
   </testcase>
-  <testcase name="PracticeDetail[https://www.zoetispets.com/pl-pl/ochrona-zdrowia-psa/artretyzm-quiz/, Ankieta pod kątem osteoarthritis u psa | Zoetis Pets, PL ARTHRITIS ASSESSMENT PAGE](29)" classname="com.zoetispets.Tests" time="2.518">
+  <testcase name="PracticeDetail[https://www.zoetispets.com/pl-pl/ochrona-zdrowia-psa/artretyzm-quiz/, Ankieta pod kątem osteoarthritis u psa | Zoetis Pets, PL ARTHRITIS ASSESSMENT PAGE](29)" classname="com.zoetispets.Tests" time="2.527">
     <system-out><![CDATA[title = Ankieta pod kątem osteoarthritis u psa | Zoetis Pets
 ]]></system-out>
   </testcase>
-  <testcase name="PracticeDetail[https://www.zoetispets.com/pl-pl/ochrona-zdrowia-psa/choroby-skory-u-psa-ocena/, Ankieta dotycząca stanu skóry psa | Zoetis Pets, PL SKIN ASSESSMENT PAGE](30)" classname="com.zoetispets.Tests" time="2.509">
+  <testcase name="PracticeDetail[https://www.zoetispets.com/pl-pl/ochrona-zdrowia-psa/choroby-skory-u-psa-ocena/, Ankieta dotycząca stanu skóry psa | Zoetis Pets, PL SKIN ASSESSMENT PAGE](30)" classname="com.zoetispets.Tests" time="2.334">
     <system-out><![CDATA[title = Ankieta dotycząca stanu skóry psa | Zoetis Pets
 ]]></system-out>
   </testcase>

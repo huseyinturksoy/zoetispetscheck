@@ -1,0 +1,3 @@
+❌ <b>Test:</b> PracticeDetail<br/>
+&nbsp;&nbsp; <b>URL:</b> https://www.zoetisetcompagnie.com/fr-fr/sante-du-chien/dermatologie-evaluation/  <br/>
+&nbsp;&nbsp; <b>Error:</b> expected [Évaluation des problèmes de peau chez le chien | Zoetis Pets] but found [The resource cannot be found.] <br/><br/>
