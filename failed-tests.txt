@@ -1,0 +1,9 @@
+❌ <b>Test:</b> PracticeDetail<br/>
+&nbsp;&nbsp; <b>URL:</b> https://www.zoetisetcompagnie.com/fr-fr/  <br/>
+&nbsp;&nbsp; <b>Error:</b> expected [Zoetis Pets FR] but found [The resource cannot be found.] <br/><br/>
+❌ <b>Test:</b> PracticeDetail<br/>
+&nbsp;&nbsp; <b>URL:</b> https://www.zoetisetcompagnie.com/fr-fr/sante-du-chien/arthrose-quiz/  <br/>
+&nbsp;&nbsp; <b>Error:</b> expected [Évaluation de l’arthrose chez le chien | Zoetis Pets] but found [The resource cannot be found.] <br/><br/>
+❌ <b>Test:</b> PracticeDetail<br/>
+&nbsp;&nbsp; <b>URL:</b> https://www.zoetisetcompagnie.com/fr-fr/sante-du-chien/dermatologie-evaluation/  <br/>
+&nbsp;&nbsp; <b>Error:</b> expected [Évaluation des problèmes de peau chez le chien | Zoetis Pets] but found [The resource cannot be found.] <br/><br/>
