@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="30" passed="30" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-15T06:27:28 UTC" name="Surefire suite" finished-at="2026-02-15T06:29:33 UTC" duration-ms="125458">
+  <suite started-at="2026-02-16T06:41:35 UTC" name="Surefire suite" finished-at="2026-02-16T06:43:28 UTC" duration-ms="112984">
     <groups>
     </groups>
-    <test started-at="2026-02-15T06:27:28 UTC" name="Surefire test" finished-at="2026-02-15T06:29:33 UTC" duration-ms="125458">
+    <test started-at="2026-02-16T06:41:35 UTC" name="Surefire test" finished-at="2026-02-16T06:43:28 UTC" duration-ms="112984">
       <class name="com.zoetispets.Tests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-15T06:27:28 UTC" name="setUp" finished-at="2026-02-15T06:27:37 UTC" duration-ms="9022" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-16T06:41:35 UTC" name="setUp" finished-at="2026-02-16T06:41:38 UTC" duration-ms="2988" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-15T06:27:37 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-15T06:27:41 UTC" duration-ms="4373" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-16T06:41:38 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-16T06:41:42 UTC" duration-ms="4462" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -32,7 +32,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-15T06:27:41 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-15T06:27:45 UTC" duration-ms="3452" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-16T06:41:42 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-16T06:41:46 UTC" duration-ms="3424" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,7 +53,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-15T06:27:45 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-15T06:27:48 UTC" duration-ms="3368" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-16T06:41:46 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-16T06:41:49 UTC" duration-ms="3414" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -74,7 +74,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-15T06:27:48 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-15T06:27:51 UTC" duration-ms="3411" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-16T06:41:49 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-16T06:41:53 UTC" duration-ms="3450" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -95,7 +95,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-15T06:27:51 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-15T06:27:55 UTC" duration-ms="3409" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-16T06:41:53 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-16T06:41:56 UTC" duration-ms="3432" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -116,7 +116,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-15T06:27:55 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-15T06:27:58 UTC" duration-ms="3410" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-16T06:41:56 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-16T06:42:00 UTC" duration-ms="3439" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -137,7 +137,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-15T06:27:58 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-15T06:28:02 UTC" duration-ms="3428" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-16T06:42:00 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-16T06:42:03 UTC" duration-ms="3472" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -158,7 +158,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-15T06:28:02 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-15T06:28:05 UTC" duration-ms="3389" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-16T06:42:03 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-16T06:42:06 UTC" duration-ms="3273" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -179,7 +179,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-15T06:28:05 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-15T06:28:09 UTC" duration-ms="4274" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-16T06:42:06 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-16T06:42:10 UTC" duration-ms="4104" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -200,7 +200,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-15T06:28:09 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-15T06:28:13 UTC" duration-ms="3562" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-16T06:42:10 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-16T06:42:14 UTC" duration-ms="3689" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -221,7 +221,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-15T06:28:13 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-15T06:28:20 UTC" duration-ms="7430" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-16T06:42:14 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-16T06:42:18 UTC" duration-ms="3841" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -242,7 +242,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-15T06:28:20 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-15T06:28:24 UTC" duration-ms="3410" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-16T06:42:18 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-16T06:42:22 UTC" duration-ms="4017" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -263,7 +263,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-15T06:28:24 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-15T06:28:27 UTC" duration-ms="3430" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-16T06:42:22 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-16T06:42:26 UTC" duration-ms="3839" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -284,7 +284,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-15T06:28:27 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-15T06:28:34 UTC" duration-ms="7161" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-16T06:42:26 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-16T06:42:31 UTC" duration-ms="4760" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -305,7 +305,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-15T06:28:34 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-15T06:28:38 UTC" duration-ms="3338" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-16T06:42:31 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-16T06:42:34 UTC" duration-ms="3380" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -326,7 +326,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-15T06:28:38 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-15T06:28:41 UTC" duration-ms="3881" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-16T06:42:34 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-16T06:42:38 UTC" duration-ms="3707" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -347,7 +347,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-15T06:28:41 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-15T06:28:45 UTC" duration-ms="3958" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-16T06:42:38 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-16T06:42:41 UTC" duration-ms="3472" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -368,7 +368,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-15T06:28:45 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-15T06:28:49 UTC" duration-ms="3788" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-16T06:42:41 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-16T06:42:45 UTC" duration-ms="4038" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -389,7 +389,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-15T06:28:49 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-15T06:28:53 UTC" duration-ms="3340" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-16T06:42:45 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-16T06:42:49 UTC" duration-ms="3797" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -410,7 +410,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-15T06:28:53 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-15T06:28:59 UTC" duration-ms="6027" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-16T06:42:49 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-16T06:42:53 UTC" duration-ms="3496" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -431,7 +431,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-15T06:28:59 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-15T06:29:02 UTC" duration-ms="3434" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-16T06:42:53 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-16T06:42:56 UTC" duration-ms="3543" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -452,7 +452,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-15T06:29:02 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-15T06:29:05 UTC" duration-ms="3475" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-16T06:42:56 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-16T06:43:00 UTC" duration-ms="3892" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -473,7 +473,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-15T06:29:05 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-15T06:29:09 UTC" duration-ms="3463" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-16T06:43:00 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-16T06:43:03 UTC" duration-ms="3512" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -494,7 +494,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-15T06:29:09 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-15T06:29:12 UTC" duration-ms="3338" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-16T06:43:03 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-16T06:43:07 UTC" duration-ms="3505" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -515,7 +515,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-15T06:29:12 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-15T06:29:16 UTC" duration-ms="3341" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-16T06:43:07 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-16T06:43:10 UTC" duration-ms="3395" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -536,7 +536,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-15T06:29:16 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-15T06:29:19 UTC" duration-ms="3333" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-16T06:43:10 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-16T06:43:14 UTC" duration-ms="3378" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -557,7 +557,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-15T06:29:19 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-15T06:29:23 UTC" duration-ms="3584" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-16T06:43:14 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-16T06:43:17 UTC" duration-ms="3443" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -578,7 +578,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-15T06:29:23 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-15T06:29:26 UTC" duration-ms="3423" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-16T06:43:17 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-16T06:43:21 UTC" duration-ms="3614" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -599,7 +599,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-15T06:29:26 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-15T06:29:29 UTC" duration-ms="3400" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-16T06:43:21 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-16T06:43:24 UTC" duration-ms="3418" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -620,7 +620,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-15T06:29:29 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-15T06:29:33 UTC" duration-ms="3280" status="PASS">
+        <test-method signature="PracticeDetail(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-16T06:43:24 UTC" name="PracticeDetail" data-provider="zoetispetsV2Locals" finished-at="2026-02-16T06:43:28 UTC" duration-ms="3265" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -641,7 +641,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PracticeDetail -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-15T06:29:33 UTC" name="tearDown" finished-at="2026-02-15T06:29:33 UTC" duration-ms="472" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.zoetispets.Tests@3c72f59f]" started-at="2026-02-16T06:43:28 UTC" name="tearDown" finished-at="2026-02-16T06:43:28 UTC" duration-ms="467" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
