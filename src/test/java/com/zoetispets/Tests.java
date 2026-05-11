@@ -1,9 +1,7 @@
 package com.zoetispets;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
@@ -13,6 +11,8 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.URI;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import com.aventstack.extentreports.*;
@@ -78,7 +78,29 @@ public class Tests {
 
     }
     
-    
+    @Test(testName = "stage_auth_test", enabled = true, priority = 2)
+    public void stageAuthTest() throws IOException {
+        String stageUrl = "https://stage-zoetispets.cphostaccess.com/";
+        test = extent.createTest("stage_auth_test");
+
+        HttpURLConnection connection = (HttpURLConnection) URI.create(stageUrl).toURL().openConnection();
+        connection.setRequestMethod("GET");
+        connection.setConnectTimeout(10000);
+        connection.setReadTimeout(10000);
+        connection.setInstanceFollowRedirects(false);
+        int statusCode = -1;
+
+        try {
+            statusCode = connection.getResponseCode();
+            Assert.assertEquals(statusCode, 401, "Unexpected response code for stage auth check.");
+            test.pass("✅ Test Passed — Received expected 401 from: " + stageUrl);
+        } catch (AssertionError e) {
+            test.fail("❌ Test Failed — Expected: 401 | Actual: " + statusCode + " | URL: " + stageUrl);
+            throw e;
+        } finally {
+            connection.disconnect();
+        }
+    }
     
     
 }
