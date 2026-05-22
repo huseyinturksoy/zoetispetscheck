@@ -13,7 +13,7 @@ public class ExtentManager {
             extent = new ExtentReports();
             extent.attachReporter(reporter);
         }
-        return extent;
+        return extent; //sd
     }
 }
 
